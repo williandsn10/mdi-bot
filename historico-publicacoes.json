@@ -22,6 +22,17 @@
         "Embraer, Carteira de Pedidos & Entregas 3T26, 23/10/2026 (CVM)"
       ],
       "status": "publicado"
+    },
+    {
+      "data": "2026-10-24",
+      "assunto": "Inflacao e eleicao: Focus, Selic e IPCA (CNN Brasil, 19/10/2026)",
+      "modelo": "modelo2",
+      "post_id": "18057881201570088",
+      "fontes": [
+        "CNN Brasil, 19/10/2026 (secundaria)"
+      ],
+      "status": "publicado",
+      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
     }
   ],
   "proximo_modelo": "escuro"
