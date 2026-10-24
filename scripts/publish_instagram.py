@@ -20,8 +20,25 @@ TOKEN = os.getenv("INSTAGRAM_ACCESS_TOKEN")
 BASE_URL = f"https://graph.instagram.com/{os.getenv('META_API_VERSION', 'v21.0')}"
 
 
+BASE_PUBLIC_URL = None  # ex.: https://raw.githubusercontent.com/williandsn10/mdi-bot/main
+
+
+def public_url_from_repo(image_path: str) -> str:
+    """URL pública da imagem já enviada (push) ao repositório público; confere que responde 200."""
+    rel = Path(image_path).resolve().relative_to(Path(__file__).resolve().parent.parent).as_posix()
+    url = f"{BASE_PUBLIC_URL.rstrip('/')}/{rel}"
+    for _ in range(12):
+        if requests.head(url, timeout=15, allow_redirects=True).status_code == 200:
+            print(f"  Pública: {url}")
+            return url
+        time.sleep(5)
+    raise RuntimeError(f"Imagem não ficou pública (confira se o push foi feito e o repositório é público): {url}")
+
+
 def host_image(image_path: str) -> str:
-    """Hospeda a imagem em URL pública via catbox.moe"""
+    """Hospeda a imagem em URL pública (repositório público, ou catbox.moe como alternativa)"""
+    if BASE_PUBLIC_URL:
+        return public_url_from_repo(image_path)
     with open(image_path, "rb") as f:
         resp = requests.post(
             "https://catbox.moe/user/api.php",
@@ -117,5 +134,8 @@ if __name__ == "__main__":
     parser.add_argument("--images", nargs="+", required=True)
     parser.add_argument("--caption", required=True)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--base-url", help="URL base pública do repositório (raw.githubusercontent.com/...); "
+                        "as imagens precisam estar commitadas e com push feito")
     args = parser.parse_args()
+    BASE_PUBLIC_URL = args.base_url
     run(args.images, args.caption, args.dry_run)

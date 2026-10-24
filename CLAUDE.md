@@ -22,14 +22,16 @@ Se existir o arquivo `MODO_TESTE` na raiz do repositório, esta é uma execuçã
 - Sábado/domingo/limite diário só justificam não publicar fora do modo teste. Com `MODO_TESTE` presente: pesquise e PUBLIQUE.
 
 ## Passo a passo de cada execução
-1. `pip install -r requirements.txt`. Leia `historico-publicacoes.json`: último modelo publicado, assuntos recentes (não repetir o mesmo assunto/empresa já publicado nos últimos 7 dias, salvo desdobramento novo e relevante).
+1. Ambiente Python: `python3 -m venv /tmp/v && /tmp/v/bin/pip install -q -r requirements.txt` e rode TODOS os scripts com `/tmp/v/bin/python` (o `python` do sistema pode estar quebrado para o Pillow). Leia `historico-publicacoes.json`: último modelo publicado, assuntos recentes (não repetir o mesmo assunto/empresa já publicado nos últimos 7 dias, salvo desdobramento novo e relevante).
 2. Pesquisar fontes (se uma bloquear ou falhar, PULE para a próxima, sem insistir): InfoMoney (https://www.infomoney.com.br/mercados/), Fundamentus últimos resultados (https://fundamentus.com.br/resultados_trimestrais.php) e fatos relevantes (https://fundamentus.com.br/fr.php), Investing Brasil (https://br.investing.com/news). Complementar: Reuters, Valor, Estadão, Exame, Agência Brasil, Banco Central, IBGE, B3, CVM, RI das empresas.
 3. Escolher UMA pauta com maior relevância para investidores de ações. Não transformar qualquer notícia em post.
 4. Confirmar em FONTE PRIMÁRIA (RI, fato relevante, comunicado, release, CVM, B3, BC, IBGE). Não publicar só com manchete de portal.
 5. Verificação interna: O que aconteceu? Fonte original? Quando? Números confirmados? Por que importa? Impacto comprovado ou só possibilidade? Detalhe que a manchete não explica?
 6. Criar o conteúdo (regras abaixo), gerar as artes, CONFERIR cada PNG visualmente (Read na imagem): texto cortado, sobreposição, números corretos. Se o texto estourar a área, reduza `size` no JSON e gere de novo.
 7. Controle de qualidade (checklist abaixo). Só então publicar.
-8. Publicar: `python scripts/publish_instagram.py --images slide1.png slide2.png slide3.png slide4.png --caption "..."`.
+8. Publicar (o Instagram exige URL pública da imagem): primeiro `git add saida && git commit && git push origin HEAD:main` das 4 artes; depois
+   `/tmp/v/bin/python scripts/publish_instagram.py --base-url https://raw.githubusercontent.com/williandsn10/mdi-bot/main --images saida/<pasta>/slide1.png ... slide4.png --caption "..."`.
+   Se a imagem não ficar pública, tente 1 vez de novo; não use serviços de upload de terceiros.
 9. Atualizar `historico-publicacoes.json` (data, assunto, modelo, post_id, fontes, status "publicado"), atualizar `proximo_modelo`, `git add -A && git commit && git push`. Se o push falhar, tente de novo; se continuar falhando, escreva claramente no relatório final o que deveria ser registrado.
 10. Relatório final curto: pauta, modelo, post_id, fontes, problemas.
 
