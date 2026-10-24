@@ -12,7 +12,17 @@
       "assunto": "Bradesco - resultado 3T26",
       "modelo": "escuro",
       "post_id": "18138353518651602"
+    },
+    {
+      "data": "2026-10-24",
+      "assunto": "Embraer - carteira de pedidos e entregas 3T26 (US$ 35,7 bi)",
+      "modelo": "claro",
+      "post_id": "18393764485161356",
+      "fontes": [
+        "Embraer, Carteira de Pedidos & Entregas 3T26, 23/10/2026 (CVM)"
+      ],
+      "status": "publicado"
     }
   ],
-  "proximo_modelo": "claro"
+  "proximo_modelo": "escuro"
 }
