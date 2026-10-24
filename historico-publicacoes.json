@@ -28,6 +28,14 @@
       "post_id": null,
       "status": "pulado",
       "motivo": "Modo teste: fontes (InfoMoney, Fundamentus) bloqueadas pelo proxy; so achei noticias de portal sem documento primario acessivel; Bradesco 3T26 e BB Seguridade ja publicados hoje. Na duvida, nao publicar."
+    },
+    {
+      "data": "2026-10-24",
+      "assunto": "-",
+      "modelo": null,
+      "post_id": null,
+      "status": "pulado",
+      "motivo": "Execucao de terca 19h disparada em sabado (24/10/2026) com MODO_TESTE remanescente no repo; ja ha 2 publicacoes no dia (BB Seguridade, Bradesco 3T26) e execucoes anteriores do dia nao acharam pauta nova com fonte primaria; na duvida, nao publicar. MODO_TESTE removido para evitar publicacoes fora da agenda."
     }
   ],
   "proximo_modelo": "claro"
