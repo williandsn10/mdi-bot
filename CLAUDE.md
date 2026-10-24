@@ -51,6 +51,8 @@ Nunca invente informação para ter o que publicar. Prefira não publicar a publ
 - Resultados trimestrais: não só "lucro de R$ X". Buscar receita líquida, EBITDA, lucro, margens, dívida, geração de caixa, dividendos, comparação a/a e t/t, guidance, comentários da administração, eventos extraordinários, e escolher o número que conta a história do balanço.
 - Gancho na 1ª frase, sem sensacionalismo ("URGENTE", "BOMBA", "vai explodir" são proibidos). Pouco texto na arte; compreensível em segundos.
 
+- ANÁLISE só pode usar raciocínio sobre fatos que estão na fonte; não introduza fatos, cenários ou números externos (ex.: "combustível volátil", "mercado aquecido") sem fonte citada. Na dúvida, escreva só o que o documento não informa.
+
 ## Carrossel (4 slides, padrão)
 1 Gancho · 2 O que aconteceu (números/fatos) · 3 O que significa (FATO x ANÁLISE; o que ainda não sabemos) · 4 Conclusão equilibrada ("Isso muda a tese de investimento?" ou similar) + CTA discreto ("Salve para acompanhar." / "Compartilhe com outro investidor." / "Siga o Mente de Investidor para acompanhar o mercado sem ruído.").
 Tamanhos de fonte que funcionaram (DejaVu/Segoe): slide de gancho `size` 70–76; slides de texto 48–54; reduzir se estourar.
