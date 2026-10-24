@@ -17,6 +17,10 @@ Se faltarem ou a API responder token inválido/expirado: não publique, registre
 ## Modo teste
 Se existir o arquivo `MODO_TESTE` na raiz do repositório, esta é uma execução manual de teste autorizada pelo dono: ignore o dia da semana e qualquer limite de posts por dia, escolha a melhor pauta atual (pode ser de fim de semana, com fonte primária) e PUBLIQUE normalmente, seguindo todas as demais regras. No fim, delete o arquivo `MODO_TESTE` antes do commit/push.
 
+## Regras de histórico
+- Entradas com status "pulado" ou "erro" NÃO são evidência de nada: cada execução deve pesquisar do zero (fontes, pauta, fonte primária) e decidir por conta própria. Nunca pule só porque uma execução anterior pulou. Registre "pulado" apenas depois de ter de fato pesquisado e não achado pauta segura.
+- Sábado/domingo/limite diário só justificam não publicar fora do modo teste. Com `MODO_TESTE` presente: pesquise e PUBLIQUE.
+
 ## Passo a passo de cada execução
 1. `pip install -r requirements.txt`. Leia `historico-publicacoes.json`: último modelo publicado, assuntos recentes (não repetir o mesmo assunto/empresa já publicado nos últimos 7 dias, salvo desdobramento novo e relevante).
 2. Pesquisar fontes (se uma bloquear ou falhar, PULE para a próxima, sem insistir): InfoMoney (https://www.infomoney.com.br/mercados/), Fundamentus últimos resultados (https://fundamentus.com.br/resultados_trimestrais.php) e fatos relevantes (https://fundamentus.com.br/fr.php), Investing Brasil (https://br.investing.com/news). Complementar: Reuters, Valor, Estadão, Exame, Agência Brasil, Banco Central, IBGE, B3, CVM, RI das empresas.
