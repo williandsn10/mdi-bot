@@ -12,6 +12,16 @@
       "assunto": "Bradesco - resultado 3T26",
       "modelo": "escuro",
       "post_id": "18138353518651602"
+    },
+    {
+      "data": "2026-10-24",
+      "assunto": "Azul - financiamento de ate R$ 2,0 bi para combustivel (Fato Relevante 24/10/2026)",
+      "modelo": "claro",
+      "status": "erro",
+      "motivo": "Arte gerada e conferida, mas o upload da imagem (catbox.moe) falhou com 'Invalid uploader' e a nova tentativa foi bloqueada pelo classificador de permissao; nada foi publicado.",
+      "fontes": [
+        "Fato Relevante Azul S.A., 24/10/2026 (CVM, protocolo 1580020)"
+      ]
     }
   ],
   "proximo_modelo": "claro"
