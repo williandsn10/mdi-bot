@@ -35,6 +35,12 @@ Se existir o arquivo `MODO_TESTE` na raiz do repositório, esta é uma execuçã
 9. Atualizar `historico-publicacoes.json` (data, assunto, modelo, post_id, fontes, status "publicado"), atualizar `proximo_modelo`, `git add -A && git commit && git push`. Se o push falhar, tente de novo; se continuar falhando, escreva claramente no relatório final o que deveria ser registrado.
 10. Relatório final curto: pauta, modelo, post_id, fontes, problemas.
 
+## Persistência: tente várias pautas antes de desistir
+- Monte uma lista de pelo menos 5 candidatas (fatos relevantes recentes, resultados, indicadores) e avalie-as em ordem de relevância. Se a fonte primária de uma falhar (PDF corrompido/ilegível, site fora), PASSE para a próxima candidata. Só registre "pulado" depois de ter tentado ao menos 3 candidatas com fonte primária acessível.
+- PDFs da CVM às vezes baixam truncados no proxy: tente de novo UMA vez; se falhar, troque de pauta (não gaste a execução inteira nisso). O resumo do Fundamentus (fr.php) não substitui o documento para NÚMEROS, mas pode bastar para um fato qualitativo cujo documento você leu.
+- Se já existir arte pronta em `saida/` com a data de hoje e status "erro" de upload no histórico, reutilize-a em vez de refazer.
+- Para publicar, o push das artes deve ser `git push origin HEAD:main` (o clone fica em HEAD destacado). Confirme que o push deu certo antes de publicar.
+
 ## Quando NÃO publicar (registrar no histórico com status "pulado" e o motivo)
 - Sem documento/fonte primária confiável para a informação.
 - Números, data, período ou ticker que você não conseguiu confirmar.

@@ -12,19 +12,6 @@
       "assunto": "Bradesco - resultado 3T26",
       "modelo": "escuro",
       "post_id": "18138353518651602"
-    },
-    {
-      "data": "2026-10-24",
-      "assunto": "Embraer (EMBJ3) - backlog recorde US$ 35,7 bi / entregas 3T26 (pauta avaliada)",
-      "modelo": null,
-      "post_id": null,
-      "status": "pulado",
-      "motivo": "Execucao terca (MODO_TESTE). Documento primario (CVM protocolo 1579625) baixou truncado/ilegivel (PDF imagem corrompido) e o backlog de US$ 35,7 bi nao foi confirmado por nenhuma fonte legivel; entregas 3T26 (66 aeronaves) so em portais secundarios.",
-      "fontes": [
-        "Fundamentus fr.php",
-        "CVM 1579625 (ilegivel)",
-        "trademap 02/10/2026"
-      ]
     }
   ],
   "proximo_modelo": "claro"
