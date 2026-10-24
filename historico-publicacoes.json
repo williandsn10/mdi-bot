@@ -1,8 +1,26 @@
 {
   "regra": "Alternar Modelo 1: claro -> escuro -> claro... Considerar sempre a ULTIMA publicacao efetivamente realizada (inclui extraordinarias). Atualizar este arquivo a cada publicacao.",
   "publicacoes": [
-    {"data": "2026-10-24", "assunto": "BB Seguridade - renuncia de conselheira (Fato Relevante 23/10/2026)", "modelo": "claro", "post_id": "18097747826442312"},
-    {"data": "2026-10-24", "assunto": "Bradesco - resultado 3T26", "modelo": "escuro", "post_id": "18138353518651602"}
+    {
+      "data": "2026-10-24",
+      "assunto": "BB Seguridade - renuncia de conselheira (Fato Relevante 23/10/2026)",
+      "modelo": "claro",
+      "post_id": "18097747826442312"
+    },
+    {
+      "data": "2026-10-24",
+      "assunto": "Bradesco - resultado 3T26",
+      "modelo": "escuro",
+      "post_id": "18138353518651602"
+    },
+    {
+      "data": "2026-10-24",
+      "assunto": "-",
+      "modelo": null,
+      "post_id": null,
+      "status": "pulado",
+      "motivo": "Execucao de terca 19h disparada em sabado (24/10/2026); ja ha 2 publicacoes no dia (BB Seguridade, Bradesco 3T26); sem pauta nova com fonte primaria; na duvida, nao publicar."
+    }
   ],
   "proximo_modelo": "claro"
 }
