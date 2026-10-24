@@ -14,6 +14,9 @@ Se faltarem ou a API responder token inválido/expirado: não publique, registre
 - Quinta 12h00: resultados corporativos, fatos relevantes, indicadores, destaques da semana.
 - Extraordinária: se houver fato realmente relevante e atual (fato relevante, resultado importante, dividendos, guidance, M&A, evento macro), pode publicar fora do horário, desde que respeite todas as regras.
 
+## Modo teste
+Se existir o arquivo `MODO_TESTE` na raiz do repositório, esta é uma execução manual de teste autorizada pelo dono: ignore o dia da semana e qualquer limite de posts por dia, escolha a melhor pauta atual (pode ser de fim de semana, com fonte primária) e PUBLIQUE normalmente, seguindo todas as demais regras. No fim, delete o arquivo `MODO_TESTE` antes do commit/push.
+
 ## Passo a passo de cada execução
 1. `pip install -r requirements.txt`. Leia `historico-publicacoes.json`: último modelo publicado, assuntos recentes (não repetir o mesmo assunto/empresa já publicado nos últimos 7 dias, salvo desdobramento novo e relevante).
 2. Pesquisar fontes (se uma bloquear ou falhar, PULE para a próxima, sem insistir): InfoMoney (https://www.infomoney.com.br/mercados/), Fundamentus últimos resultados (https://fundamentus.com.br/resultados_trimestrais.php) e fatos relevantes (https://fundamentus.com.br/fr.php), Investing Brasil (https://br.investing.com/news). Complementar: Reuters, Valor, Estadão, Exame, Agência Brasil, Banco Central, IBGE, B3, CVM, RI das empresas.
