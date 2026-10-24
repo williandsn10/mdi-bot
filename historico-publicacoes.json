@@ -20,6 +20,14 @@
       "post_id": null,
       "status": "pulado",
       "motivo": "Execucao de terca 19h disparada em sabado (24/10/2026); ja ha 2 publicacoes no dia (BB Seguridade, Bradesco 3T26); sem pauta nova com fonte primaria; na duvida, nao publicar."
+    },
+    {
+      "data": "2026-10-24",
+      "assunto": "-",
+      "modelo": null,
+      "post_id": null,
+      "status": "pulado",
+      "motivo": "Modo teste: fontes (InfoMoney, Fundamentus) bloqueadas pelo proxy; so achei noticias de portal sem documento primario acessivel; Bradesco 3T26 e BB Seguridade ja publicados hoje. Na duvida, nao publicar."
     }
   ],
   "proximo_modelo": "claro"
