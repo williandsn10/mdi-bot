@@ -1,0 +1,8 @@
+{
+  "regra": "Alternar Modelo 1: claro -> escuro -> claro... Considerar sempre a ULTIMA publicacao efetivamente realizada (inclui extraordinarias). Atualizar este arquivo a cada publicacao.",
+  "publicacoes": [
+    {"data": "2026-10-24", "assunto": "BB Seguridade - renuncia de conselheira (Fato Relevante 23/10/2026)", "modelo": "claro", "post_id": "18097747826442312"},
+    {"data": "2026-10-24", "assunto": "Bradesco - resultado 3T26", "modelo": "escuro", "post_id": "18138353518651602"}
+  ],
+  "proximo_modelo": "claro"
+}
