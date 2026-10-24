@@ -35,6 +35,11 @@ Se existir o arquivo `MODO_TESTE` na raiz do repositório, esta é uma execuçã
 9. Atualizar `historico-publicacoes.json` (data, assunto, modelo, post_id, fontes, status "publicado"), atualizar `proximo_modelo`, `git add -A && git commit && git push`. Se o push falhar, tente de novo; se continuar falhando, escreva claramente no relatório final o que deveria ser registrado.
 10. Relatório final curto: pauta, modelo, post_id, fontes, problemas.
 
+## Download de documentos da CVM (importante)
+Baixe SEMPRE com User-Agent de navegador, senão o download vem truncado:
+`curl -sSL --compressed -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36" -o doc.pdf "<url CVM>"`
+Verifique com `file doc.pdf` e `pdftotext -layout doc.pdf -` (ou pypdf). Se truncar, repita 2 vezes com o mesmo comando antes de trocar de pauta. Com PDF lido, a pauta é válida.
+
 ## Persistência: tente várias pautas antes de desistir
 - Monte uma lista de pelo menos 5 candidatas (fatos relevantes recentes, resultados, indicadores) e avalie-as em ordem de relevância. Se a fonte primária de uma falhar (PDF corrompido/ilegível, site fora), PASSE para a próxima candidata. Só registre "pulado" depois de ter tentado ao menos 3 candidatas com fonte primária acessível.
 - PDFs da CVM às vezes baixam truncados no proxy: tente de novo UMA vez; se falhar, troque de pauta (não gaste a execução inteira nisso). O resumo do Fundamentus (fr.php) não substitui o documento para NÚMEROS, mas pode bastar para um fato qualitativo cujo documento você leu.
