@@ -33,6 +33,18 @@
       ],
       "status": "publicado",
       "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
+    },
+    {
+      "data": "2026-10-26",
+      "assunto": "Ibovespa despenca e B3 aciona circuit breaker apos o 2o turno (dados parciais ate ~12h)",
+      "modelo": "modelo2",
+      "post_id": "18343195579287400",
+      "fontes": [
+        "CNN Brasil/Reuters, 26/10/2026",
+        "InfoMoney, 26/10/2026"
+      ],
+      "status": "publicado",
+      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
     }
   ],
   "proximo_modelo": "escuro"
