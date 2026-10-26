@@ -82,3 +82,16 @@ Legenda complementar, objetiva, sem repetir a arte: fatos com data/período, o q
 Números corretos? Datas? Empresa e ticker? Período do resultado? Informação atual? Fonte confiável e primária? Manchete = conteúdo original? Algo extrapola a fonte? Análise separada do fato? Alternância de modelo correta? Arte sem texto cortado?
 
 Prioridades: credibilidade > velocidade · fonte original > manchete · clareza > complexidade · fatos > opinião · qualidade > quantidade.
+
+
+## REGRA DE ARTE — SEM NOME DE VEÍCULO NAS IMAGENS (definida pelo usuário em 2026-10-26)
+NUNCA escrever nos textos das artes/slides o nome de outras páginas, portais, jornais ou analistas-de-veículo como fonte ou atribuição (ex.: "InfoMoney", "CNN", "Reuters", "Valor", "segundo o Estadão"). Vale para TODOS os posts e modelos. Pode-se citar a instituição que é o PRÓPRIO emissor do fato (ex.: "Banco Central", "IBGE", "B3", "Tesouro Nacional", a empresa) porque isso é o fato, não a fonte jornalística. A fonte pode constar só na legenda, na linha final "Fontes:". Se a informação só existe numa matéria, apresente-a no slide sem citar o veículo.
+
+
+## REGRA DE CTA FINAL + PRODUTOS MDI (definida pelo usuário em 2026-10-26) — vale para TODOS os modelos e para a rotina automática
+O ÚLTIMO slide (ou o fim do texto, em imagem única) de todo post termina com: seguir o Instagram **@mentedeinvestidor.br** e acessar o site **www.mentedeinvestidor.com.br**. A legenda termina com a mesma chamada ("Siga @mentedeinvestidor.br e acesse mentedeinvestidor.com.br").
+Além disso, SEMPRE que o tema permitir, incluir uma chamada para UM produto MDI, escolhido pelo tema (nunca mais de um por post):
+- **Carteira MDI SELECT** — "Acompanhe a carteira e entenda o contexto por trás de cada decisão." Usar em temas de mercado/Bolsa, volatilidade, decisões e oportunidades de investimento.
+- **Guia de Indicadores** — "Aprenda a interpretar indicadores antes de escolher onde investir." Usar em temas de resultados, balanços, análise fundamentalista, valuation, dividendos, indicadores.
+- **Educação Financeira Simples (ebook)** — "Um ebook para entender seu dinheiro e começar pelo que importa." Usar em temas básicos: juros, Selic, inflação, renda fixa, organização financeira, iniciantes.
+Regras: usar só as descrições acima (não inventar preço, desconto, funcionalidade, prazo, rentabilidade ou resultado); NUNCA prometer retorno nem sugerir que o produto garante ganho; manter o aviso "Conteúdo informativo/educativo, sem recomendação de compra ou venda"; tom discreto, sem pressão ("Conheça", "Saiba mais no site"); se o tema não combinar com nenhum produto (ex.: notícia política sensível), ficar só com seguir + site. Não citar nome de veículo na arte (regra anterior).
