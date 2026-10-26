@@ -180,7 +180,10 @@ if __name__ == "__main__":
     lg = logo()
     tag, fonte = cfg.get("tag", "Mercado"), cfg.get("fonte", "")
     for i, s in enumerate(cfg["slides"], 1):
-        if s.get("cta"):
+        if s.get("final"):
+            from cta_final import make_cta
+            im = make_cta(s["final"])
+        elif s.get("cta"):
             im = cta_slide(s["text"], lg)
         else:
             has_img = bool(s.get("image"))

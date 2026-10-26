@@ -95,3 +95,12 @@ Além disso, SEMPRE que o tema permitir, incluir uma chamada para UM produto MDI
 - **Guia de Indicadores** — "Aprenda a interpretar indicadores antes de escolher onde investir." Usar em temas de resultados, balanços, análise fundamentalista, valuation, dividendos, indicadores.
 - **Educação Financeira Simples (ebook)** — "Um ebook para entender seu dinheiro e começar pelo que importa." Usar em temas básicos: juros, Selic, inflação, renda fixa, organização financeira, iniciantes.
 Regras: usar só as descrições acima (não inventar preço, desconto, funcionalidade, prazo, rentabilidade ou resultado); NUNCA prometer retorno nem sugerir que o produto garante ganho; manter o aviso "Conteúdo informativo/educativo, sem recomendação de compra ou venda"; tom discreto, sem pressão ("Conheça", "Saiba mais no site"); se o tema não combinar com nenhum produto (ex.: notícia política sensível), ficar só com seguir + site. Não citar nome de veículo na arte (regra anterior).
+
+
+## SLIDE FINAL ÚNICO (substitui a regra de CTA dentro do slide anterior; definido pelo usuário em 2026-10-26)
+Todo carrossel (Modelo 1 e Modelo 2) termina com UM SLIDE FINAL ÚNICO e dedicado, fundo preto, no estilo do último slide do Modelo 2: nome do produto do tema (dourado), a descrição oficial do produto em caixa alta, caixa com **WWW.MENTEDEINVESTIDOR.COM.BR**, "SIGA @MENTEDEINVESTIDOR.BR NO INSTAGRAM" e a logo. NÃO colocar a chamada de produto/seguir/site dentro dos slides de conteúdo (o slide 4 do Modelo 1 termina só com a conclusão e "Salve para acompanhar.").
+- Gerar com `{"final": "carteira" | "guia" | "ebook" | "none"}` como ÚLTIMO item de `slides` no JSON (funciona em `modelo1_x.py` e `modelo2_forbes.py`, via `scripts/cta_final.py`). Modelo 1 fica com 4 slides de conteúdo + 1 final (5); Modelo 2, 6 + 1.
+- Escolha do produto pelo tema (um só): `carteira` = Bolsa, volatilidade, decisões e oportunidades; `guia` = resultados, balanços, análise fundamentalista, valuation, dividendos, indicadores; `ebook` = juros, Selic, inflação, renda fixa, organização financeira, iniciantes; `none` = tema político sensível ou sem encaixe (só seguir + site).
+- Textos dos produtos só os oficiais já no script (não inventar preço, desconto, funcionalidade, prazo ou rentabilidade; nunca prometer retorno).
+- Post de IMAGEM ÚNICA: não há slide final; a chamada (produto + seguir + site) vai no fim da legenda.
+- A legenda continua terminando com "Siga @mentedeinvestidor.br e acesse mentedeinvestidor.com.br" e, quando couber, uma linha do produto.

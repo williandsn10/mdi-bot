@@ -112,5 +112,9 @@ if __name__ == "__main__":
     out = os.path.normpath(os.path.join(ROOT, cfg["out"])); os.makedirs(out, exist_ok=True)
     av = make_avatar(); theme = THEMES[cfg.get("theme", "claro")]
     for i, s in enumerate(cfg["slides"], 1):
-        render(av, s, os.path.join(out, f"slide{i}.png"), theme)
+        if s.get("final"):
+            from cta_final import make_cta
+            make_cta(s["final"]).save(os.path.join(out, f"slide{i}.png"))
+        else:
+            render(av, s, os.path.join(out, f"slide{i}.png"), theme)
     print("ok", out)
