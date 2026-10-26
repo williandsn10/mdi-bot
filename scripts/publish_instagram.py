@@ -80,6 +80,19 @@ def create_carousel(media_ids: list, caption: str) -> str:
     return result["id"]
 
 
+def create_single(image_path: str, caption: str) -> str:
+    resp = requests.post(f"{BASE_URL}/{IG_ID}/media", data={
+        "access_token": TOKEN,
+        "image_url": host_image(image_path),
+        "caption": caption,
+    }, timeout=60)
+    result = resp.json()
+    if "id" not in result:
+        raise RuntimeError(f"Erro post unico: {result}")
+    print(f"  Post unico: {result['id']}")
+    return result["id"]
+
+
 def wait_ready(container_id: str) -> bool:
     for i in range(12):
         resp = requests.get(f"{BASE_URL}/{container_id}",
@@ -109,8 +122,8 @@ def run(images: list, caption: str, dry_run: bool = False):
     if not IG_ID or not TOKEN:
         print("ERRO: Credenciais nao encontradas no .env.")
         sys.exit(1)
-    if not 2 <= len(images) <= 10:
-        print("ERRO: Carrossel precisa de 2 a 10 imagens.")
+    if not 1 <= len(images) <= 10:
+        print("ERRO: Use de 1 a 10 imagens (1 = post unico; 2 a 10 = carrossel).")
         sys.exit(1)
 
     print(f"\nPublicando {len(images)} slides no Instagram...")
