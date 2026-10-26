@@ -57,7 +57,19 @@
       ],
       "status": "publicado",
       "observacao": "Post manual do dono (imagem unica); nao entra na alternancia do Modelo 1. Resultado do leilao nao confirmado na epoca."
+    },
+    {
+      "data": "2026-10-26",
+      "assunto": "Educativo: oportunidades em dias de queda forte na Bolsa (preco x valor, margem de seguranca)",
+      "modelo": "escuro",
+      "post_id": "18116903048108876",
+      "fontes": [
+        "InfoMoney, 26/10/2026 (apenas legenda)"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Post manual do dono, Modelo 1 (conta na alternancia). Slide final unico com Guia de Indicadores."
     }
   ],
-  "proximo_modelo": "escuro"
+  "proximo_modelo": "claro"
 }
