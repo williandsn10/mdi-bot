@@ -131,6 +131,15 @@ def run(images: list, caption: str, dry_run: bool = False):
         print("[DRY RUN] Tudo OK. Remova --dry-run para publicar.")
         return
 
+    if len(images) == 1:
+        print("\nPost de imagem unica...")
+        cid = create_single(images[0], caption)
+        if not wait_ready(cid):
+            print("ERRO: Timeout no processamento.")
+            sys.exit(1)
+        print(f"\nPublicado com sucesso! Post ID: {publish(cid)}")
+        return
+
     print("\nPasso 1/3 - Criando containers...")
     ids = [create_media_container(img) for img in images]
     print("\nPasso 2/3 - Montando carrossel...")

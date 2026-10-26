@@ -45,6 +45,18 @@
       ],
       "status": "publicado",
       "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
+    },
+    {
+      "data": "2026-10-26",
+      "assunto": "Tesouro recompra ate 15 milhoes de titulos prefixados (NTN-F 2031/2033/2037; teto R$ 15 bi de face)",
+      "modelo": "modelo2",
+      "post_id": "17916410352541526",
+      "fontes": [
+        "InfoMoney, 26/10/2026",
+        "ISTOE Dinheiro, 26/10/2026"
+      ],
+      "status": "publicado",
+      "observacao": "Post manual do dono (imagem unica); nao entra na alternancia do Modelo 1. Resultado do leilao nao confirmado na epoca."
     }
   ],
   "proximo_modelo": "escuro"
