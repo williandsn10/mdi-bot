@@ -4,7 +4,7 @@ Uso: /tmp/v/bin/python scripts/story_venda.py  -> saida/stories-venda/*.png
 Beneficios: apenas as descricoes oficiais dos produtos. Sem promessa de retorno.
 """
 import os
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops
 from cta_final import _font, _logo, _wrap, GOLD
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -14,43 +14,51 @@ WHITE = (245, 245, 242)
 GREY = (150, 150, 150)
 
 PRODUTOS = [
-    dict(id="mdi-select", titulo=["Acompanhe a carteira", "**MDI SELECT**"], tag="ASSINATURA", capa=["CARTEIRA", "MDI SELECT"],
+    dict(id="mdi-select", foto="chart.jpg", titulo=["Acompanhe a carteira", "**MDI SELECT**"], tag="ASSINATURA", capa=["CARTEIRA", "MDI SELECT"],
          de="De R$ 49,90/mês", por="R$ 29,90", sufixo="/mês",
          beneficio="Acompanhe a carteira e entenda o contexto por trás de cada decisão.",
          link="https://pay.hub.la/Mu9W039KCOgYORN61aVk"),
-    dict(id="mdi-select-anual", titulo=["Plano anual", "**MDI SELECT**"], tag="PLANO ANUAL", capa=["CARTEIRA", "MDI SELECT"],
+    dict(id="mdi-select-anual", foto="g9eo.jpg", titulo=["Plano anual", "**MDI SELECT**"], tag="PLANO ANUAL", capa=["CARTEIRA", "MDI SELECT"],
          de="De R$ 598,80/ano", por="R$ 299,00", sufixo="/ano", destaque="Economize R$ 299,80",
          beneficio="Acompanhe a carteira e entenda o contexto por trás de cada decisão.",
          link="https://pay.hub.la/Mu9W039KCOgYORN61aVk",
          obs="Confirme o plano anual na página de compra."),
-    dict(id="indicadores-timing-sentimento", titulo=["Aprenda a ler os", "**INDICADORES**"], tag="INDICADORES", capa=["INDICADORES MDI", "Timing &", "Sentimento"],
+    dict(id="indicadores-timing-sentimento", foto="candle.jpg", titulo=["Aprenda a ler os", "**INDICADORES**"], tag="INDICADORES", capa=["INDICADORES MDI", "Timing &", "Sentimento"],
          de="De R$ 79,90", por="R$ 39,90", sufixo="",
          beneficio="Aprenda a interpretar indicadores antes de escolher onde investir.",
          link="https://pay.hub.la/ZSjrKfNe7mDNNMzXiRVy"),
-    dict(id="do-zero-ao-patrimonio", titulo=["Comece pelo que", "**IMPORTA**"], tag="EBOOK", capa=["Do Zero", "ao Patrimônio"],
+    dict(id="do-zero-ao-patrimonio", foto="calc.jpg", escuro=0.45, titulo=["Comece pelo que", "**IMPORTA**"], tag="EBOOK", capa=["Do Zero", "ao Patrimônio"],
          de="De R$ 59,90", por="R$ 29,90", sufixo="",
          beneficio="Um ebook para entender seu dinheiro e começar pelo que importa.",
          link="https://pay.hub.la/ZjFtKzXBRYl6kWYzCrLD"),
-    dict(id="combo-do-zero-a-analise", titulo=["Combo MDI", "**DO ZERO À ANÁLISE**"], tag="COMBO", capa=None,
+    dict(id="combo-do-zero-a-analise", foto="laptop.jpg", titulo=["Combo MDI", "**DO ZERO À ANÁLISE**"], tag="COMBO", capa=None,
          de="De R$ 139,80", por="R$ 49,90", sufixo="",
          beneficio="Entenda seu dinheiro e aprenda a interpretar indicadores.",
          link="https://pay.hub.la/vtUh3OyPNQvMCL8WsxS6"),
 ]
 
 
-def background():
-    im = Image.new("RGB", (W, H))
-    d = ImageDraw.Draw(im)
+def background(foto, escuro=0.2):
+    """Foto em tela cheia (como o Modelo 2) com degrade escuro para legibilidade."""
+    ph = Image.open(os.path.join(ROOT, "assets", "fotos-stories", foto)).convert("RGB")
+    k = max(W / ph.width, H / ph.height)
+    ph = ph.resize((int(ph.width * k), int(ph.height * k)), Image.LANCZOS)
+    l, t = (ph.width - W) // 2, 0
+    im = ph.crop((l, t, l + W, t + H)).filter(ImageFilter.GaussianBlur(1))
+    im = Image.blend(im, Image.new("RGB", (W, H), (0, 0, 0)), escuro)
+    col = Image.new("L", (1, H))
     for y in range(H):
-        t = y / H
-        c = int(26 - 22 * t)
-        d.line([(0, y), (W, y)], fill=(c, c, c + 1))
-    glow = Image.new("RGB", (W, H), (0, 0, 0))
-    ImageDraw.Draw(glow).ellipse([140, 520, 940, 1150], fill=(70, 55, 22))
-    glow = glow.filter(ImageFilter.GaussianBlur(160))
-    im = Image.blend(im, Image.eval(Image.composite(glow, im, Image.new("L", (W, H), 255)), lambda v: v), 0.55)
-    # moldura fina dourada
-    ImageDraw.Draw(im).rectangle([36, 36, W - 37, H - 37], outline=(86, 70, 34), width=2)
+        u = y / H
+        a = 0.35 * (1 - u / 0.2) if u < 0.2 else 0
+        a = max(a, min(0.92, max(0.0, (u - 0.5) / 0.3) ** 0.8 * 0.92))
+        a = max(a, 0.55 * max(0.0, 1 - abs(u - 0.19) / 0.12))
+        col.putpixel((0, y), int(255 * a))
+    black = Image.new("RGB", (W, H), (0, 0, 0))
+    im = Image.composite(black, im, col.resize((W, H)))
+    gold = Image.new("RGB", (W, H), (0, 0, 0))
+    ImageDraw.Draw(gold).ellipse([200, 600, 880, 1150], fill=(60, 46, 18))
+    im = ImageChops.add(im, gold.filter(ImageFilter.GaussianBlur(150)))
+    ImageDraw.Draw(im).rectangle([36, 36, W - 37, H - 37], outline=(120, 98, 46), width=2)
     return im
 
 
@@ -112,7 +120,7 @@ def seal(im, cx, cy):
 
 
 def make(p):
-    im = background().convert("RGBA")
+    im = background(p["foto"], p.get("escuro", 0.2)).convert("RGBA")
     d = ImageDraw.Draw(im)
     ann = bool(p.get("destaque"))
     dy = 0 if ann else 25
