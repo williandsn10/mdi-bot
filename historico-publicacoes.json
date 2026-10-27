@@ -69,7 +69,18 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Post manual do dono, Modelo 1 (conta na alternancia). Slide final unico com Guia de Indicadores."
+    },
+    {
+      "data": "2026-10-27",
+      "assunto": "Gerdau (GGBR4) - resultado 3T26 (EBITDA ajustado R$ 3,8 bi, dividendos R$ 0,34/acao)",
+      "modelo": "claro",
+      "post_id": "17943341757365534",
+      "fontes": [
+        "Gerdau, Divulgacao de Resultados 3T26, 27/10/2026 (CVM, protocolo 1580462)"
+      ],
+      "produto": "guia",
+      "status": "publicado"
     }
   ],
-  "proximo_modelo": "claro"
+  "proximo_modelo": "escuro"
 }
