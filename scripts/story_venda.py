@@ -18,7 +18,7 @@ PRODUTOS = [
          de="De R$ 49,90/mês", por="R$ 29,90", sufixo="/mês",
          beneficio="Acompanhe a carteira e entenda o contexto por trás de cada decisão.",
          link="https://pay.hub.la/Mu9W039KCOgYORN61aVk"),
-    dict(id="mdi-select-anual", foto="g9eo.jpg", titulo=["Plano anual", "**MDI SELECT**"], tag="PLANO ANUAL", capa=["CARTEIRA", "MDI SELECT"],
+    dict(id="mdi-select-anual", foto="chart.jpg", titulo=["Plano anual", "**MDI SELECT**"], tag="PLANO ANUAL", capa=["CARTEIRA", "MDI SELECT"],
          de="De R$ 598,80/ano", por="R$ 299,00", sufixo="/ano", destaque="Economize R$ 299,80",
          beneficio="Acompanhe a carteira e entenda o contexto por trás de cada decisão.",
          link="https://pay.hub.la/Mu9W039KCOgYORN61aVk",
