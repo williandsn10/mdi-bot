@@ -104,3 +104,10 @@ Todo carrossel (Modelo 1 e Modelo 2) termina com UM SLIDE FINAL ÚNICO e dedicad
 - Textos dos produtos só os oficiais já no script (não inventar preço, desconto, funcionalidade, prazo ou rentabilidade; nunca prometer retorno).
 - Post de IMAGEM ÚNICA: não há slide final; a chamada (produto + seguir + site) vai no fim da legenda.
 - A legenda continua terminando com "Siga @mentedeinvestidor.br e acesse mentedeinvestidor.com.br" e, quando couber, uma linha do produto.
+
+
+## MODELO 3 — STORIES DE VENDA (definido pelo usuário em 2026-10-27) — PUBLICAR SÓ QUANDO O DONO SOLICITAR
+- Formato vertical 1080x1920, foto de fundo em tela cheia (estilo Modelo 2) com degrade escuro, capa do produto no centro, selo "OFERTA ESPECIAL", preço original riscado, preço promocional em destaque dourado, benefício em 1–2 linhas, botão "Comprar agora" e "Clique no link e acesse agora". Sem promessa de lucro; aviso "Conteúdo educativo. Sem promessa de retorno.".
+- Gerador: `/tmp/v/bin/python scripts/story_venda.py` (produtos, preços, fotos e links no dicionário `PRODUTOS`). Fotos em `assets/fotos-stories/`; artes prontas em `saida/stories-venda/`; links por Story em `saida/stories-venda/LINKS.txt` (o link vai no sticker, não na imagem).
+- Produtos/preços atuais: MDI Select (De R$ 49,90/mês por R$ 29,90/mês; anual De R$ 598,80/ano por R$ 299,00/ano, "Economize R$ 299,80"), Indicadores MDI Timing & Sentimento (R$ 79,90 → R$ 39,90), Do Zero ao Patrimônio (R$ 59,90 → R$ 29,90), Combo Do Zero à Análise (R$ 139,80 → R$ 49,90).
+- REGRA: NUNCA publicar Stories de venda na rotina automática nem por iniciativa própria. Publicar apenas quando o dono pedir expressamente (e dizer qual Story). Os preços só valem enquanto o dono não alterar.
