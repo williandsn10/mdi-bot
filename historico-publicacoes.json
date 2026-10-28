@@ -80,7 +80,18 @@
       ],
       "produto": "guia",
       "status": "publicado"
+    },
+    {
+      "data": "2026-10-28",
+      "assunto": "Itau (ITUB4) compra 100% da NeoSpace (IA) por R$ 2,925 bi, pagamento diferido em 5 anos",
+      "modelo": "escuro",
+      "post_id": "17920715757246096",
+      "fontes": [
+        "Itau Unibanco, Fato Relevante, 26/10/2026 (CVM, protocolo 1580024)"
+      ],
+      "produto": "carteira",
+      "status": "publicado"
     }
   ],
-  "proximo_modelo": "escuro"
+  "proximo_modelo": "claro"
 }
