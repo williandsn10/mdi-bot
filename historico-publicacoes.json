@@ -91,6 +91,19 @@
       ],
       "produto": "carteira",
       "status": "publicado"
+    },
+    {
+      "data": "2026-10-28",
+      "assunto": "TCU calcula aliquota de referencia de 11,3% para a CBS (reforma tributaria)",
+      "modelo": "modelo2",
+      "post_id": "18132708463831383",
+      "fontes": [
+        "TCU, portal.tcu.gov.br, 28/10/2026",
+        "Reuters via Forbes Brasil, 28/10/2026 (secundaria, so legenda)"
+      ],
+      "produto": "ebook",
+      "status": "publicado",
+      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
     }
   ],
   "proximo_modelo": "claro"
