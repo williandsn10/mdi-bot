@@ -104,7 +104,19 @@
       "produto": "ebook",
       "status": "publicado",
       "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
+    },
+    {
+      "data": "2026-10-28",
+      "assunto": "BBAS3 (Banco do Brasil): queda de 29,33% em 26/10 e fechamento de 27/10 (R$ 17,38); cautela do mercado",
+      "modelo": "claro",
+      "post_id": "18092913266658144",
+      "fontes": [
+        "Cobertura de mercado 26-27/10/2026 (secundaria, so legenda)"
+      ],
+      "produto": "carteira",
+      "status": "publicado",
+      "observacao": "Post manual do dono, Modelo 1 (conta na alternancia). Numeros nao conferidos em RI/B3."
     }
   ],
-  "proximo_modelo": "claro"
+  "proximo_modelo": "escuro"
 }
