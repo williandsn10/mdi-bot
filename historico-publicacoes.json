@@ -116,6 +116,19 @@
       "produto": "carteira",
       "status": "publicado",
       "observacao": "Post manual do dono, Modelo 1 (conta na alternancia). Numeros nao conferidos em RI/B3."
+    },
+    {
+      "data": "2026-10-28",
+      "assunto": "Fed mantem juros em 3,75%-4% (10x2; Cook e Hammack por alta de 0,25 p.p.)",
+      "modelo": "modelo2",
+      "post_id": "17966072391212500",
+      "fontes": [
+        "FOMC statement, federalreserve.gov, 28/10/2026",
+        "Cobertura de mercado (secundaria, so legenda)"
+      ],
+      "produto": "ebook",
+      "status": "publicado",
+      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
     }
   ],
   "proximo_modelo": "escuro"
