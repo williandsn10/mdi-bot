@@ -129,7 +129,18 @@
       "produto": "ebook",
       "status": "publicado",
       "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
+    },
+    {
+      "data": "2026-10-29",
+      "assunto": "Petrobras (PETR4) - recorde de producao 3T26 (3,512 MMboed, +11,7% a/a, +5,3% t/t)",
+      "modelo": "escuro",
+      "post_id": "18118813081972114",
+      "fontes": [
+        "Petrobras, Relatorio de Producao e Vendas 3T26, 28/10/2026 (CVM, protocolo 1581329)"
+      ],
+      "produto": "guia",
+      "status": "publicado"
     }
   ],
-  "proximo_modelo": "escuro"
+  "proximo_modelo": "claro"
 }
