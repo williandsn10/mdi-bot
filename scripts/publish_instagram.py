@@ -93,6 +93,22 @@ def create_single(image_path: str, caption: str) -> str:
     return result["id"]
 
 
+def create_reel(video_path: str, caption: str) -> str:
+    """Reel (video .mp4 ja enviado ao repositorio publico, passado como --images arquivo.mp4)."""
+    resp = requests.post(f"{BASE_URL}/{IG_ID}/media", data={
+        "access_token": TOKEN,
+        "media_type": "REELS",
+        "video_url": host_image(video_path),
+        "caption": caption,
+        "share_to_feed": "true",
+    }, timeout=60)
+    result = resp.json()
+    if "id" not in result:
+        raise RuntimeError(f"Erro reel: {result}")
+    print(f"  Reel: {result['id']}")
+    return result["id"]
+
+
 def wait_ready(container_id: str) -> bool:
     for i in range(12):
         resp = requests.get(f"{BASE_URL}/{container_id}",
@@ -132,8 +148,9 @@ def run(images: list, caption: str, dry_run: bool = False):
         return
 
     if len(images) == 1:
-        print("\nPost de imagem unica...")
-        cid = create_single(images[0], caption)
+        is_video = images[0].lower().endswith(".mp4")
+        print("\nReel (video)..." if is_video else "\nPost de imagem unica...")
+        cid = create_reel(images[0], caption) if is_video else create_single(images[0], caption)
         if not wait_ready(cid):
             print("ERRO: Timeout no processamento.")
             sys.exit(1)
