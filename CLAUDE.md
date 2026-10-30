@@ -115,3 +115,13 @@ Todo carrossel (Modelo 1 e Modelo 2) termina com UM SLIDE FINAL ÚNICO e dedicad
 
 ## REELS (adicionado em 2026-10-30)
 `publish_instagram.py` publica Reel quando o único item de `--images` termina em `.mp4` (subir o vídeo ao repositório primeiro, como as imagens). Reels de terceiros: só com autorização declarada pelo dono; nunca baixar/republicar vídeo alheio por iniciativa do agente. Preferir memes ORIGINAIS do MDI.
+
+
+## MODELO REELS MEME (definido pelo usuário em 2026-10-30) — uso MANUAL, só quando o usuário enviar o clipe
+Quando o usuário enviar um vídeo meme (arquivo .mp4) e pedir para publicar no perfil, REFAZER sempre no formato MDI, nunca postar o arquivo cru:
+- Gerar com `python scripts/reel_meme.py CLIPE.mp4 PASTA --linhas "Linha 1|Linha 2" --negrito "Eu:"` (projeto Remotion em `anuncio-indicadores-mdi`, composição `MemeInvest`).
+- O script: troca o fundo por degradê grafite com brilho dourado discreto; coloca cabeçalho MDI (logo, "Mente de Investidor", selo azul, @); reescreve o texto da piada com a fonte do perfil; recorta o clipe (tira a marca/cabeçalho do perfil de origem); coloca logo MDI + www.mentedeinvestidor.com.br + "Siga @mentedeinvestidor.br" abaixo do clipe; tudo dentro da área segura de Reels (1080x1920, 30 fps, áudio original).
+- Sem nome de outra página, crédito ou marca de terceiros na arte nem na legenda (decisão do dono). A responsabilidade pela autorização do clipe é do dono, que declarou ter permissão para tudo; o agente automático da nuvem NUNCA baixa nem usa vídeo de terceiros por conta própria.
+- Legenda cativante, curta, com pergunta ao leitor, produto MDI do tema (em geral o ebook Educação Financeira Simples), "Siga @mentedeinvestidor.br e acesse mentedeinvestidor.com.br", aviso "Conteúdo de humor e educação financeira, sem recomendação de compra ou venda.", 4–6 hashtags.
+- Publicar como Reel: subir `reel.mp4` ao repositório (`mdi-bot/saida/...`) e `publish_instagram.py --images saida/.../reel.mp4 --base-url ...`. Só após aprovação do usuário.
+- Referência: `reel-meme-investido/v2/reel.mp4`.
