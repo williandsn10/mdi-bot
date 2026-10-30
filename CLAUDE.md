@@ -125,3 +125,7 @@ Quando o usuário enviar um vídeo meme (arquivo .mp4) e pedir para publicar no 
 - Legenda cativante, curta, com pergunta ao leitor, produto MDI do tema (em geral o ebook Educação Financeira Simples), "Siga @mentedeinvestidor.br e acesse mentedeinvestidor.com.br", aviso "Conteúdo de humor e educação financeira, sem recomendação de compra ou venda.", 4–6 hashtags.
 - Publicar como Reel: subir `reel.mp4` ao repositório (`mdi-bot/saida/...`) e `publish_instagram.py --images saida/.../reel.mp4 --base-url ...`. Só após aprovação do usuário.
 - Referência: `reel-meme-2/final2/reel.mp4`.
+
+
+## REELS: SOMENTE NA ABA REELS (definido pelo usuário em 2026-10-30)
+Todo Reel é publicado SÓ na grade/aba de Reels, sem aparecer na grade principal do feed (`share_to_feed=false` no `publish_instagram.py`). Posts de imagem e carrossel continuam normais no feed. Não reverter sem pedido do dono.

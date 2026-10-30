@@ -94,13 +94,13 @@ def create_single(image_path: str, caption: str) -> str:
 
 
 def create_reel(video_path: str, caption: str) -> str:
-    """Reel (video .mp4 ja enviado ao repositorio publico, passado como --images arquivo.mp4)."""
+    """Reel (video .mp4 ja enviado ao repositorio publico, passado como --images arquivo.mp4). Publica SO na aba Reels (share_to_feed=false), por decisao do dono em 2026-10-30."""
     resp = requests.post(f"{BASE_URL}/{IG_ID}/media", data={
         "access_token": TOKEN,
         "media_type": "REELS",
         "video_url": host_image(video_path),
         "caption": caption,
-        "share_to_feed": "true",
+        "share_to_feed": "false",
     }, timeout=60)
     result = resp.json()
     if "id" not in result:
