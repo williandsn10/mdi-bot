@@ -140,6 +140,15 @@
       ],
       "produto": "guia",
       "status": "publicado"
+    },
+    {
+      "data": "2026-10-30",
+      "assunto": "Reel meme: 'Quando perguntam quanto eu tenho investido. Eu:' (clipe de terceiros usado com autorizacao declarada pelo dono)",
+      "modelo": "reel-meme",
+      "post_id": "18112000559184068",
+      "produto": "ebook",
+      "status": "publicado",
+      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Sem credito por decisao do dono."
     }
   ],
   "proximo_modelo": "claro"

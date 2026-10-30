@@ -111,3 +111,7 @@ Todo carrossel (Modelo 1 e Modelo 2) termina com UM SLIDE FINAL ÚNICO e dedicad
 - Gerador: `/tmp/v/bin/python scripts/story_venda.py` (produtos, preços, fotos e links no dicionário `PRODUTOS`). Fotos em `assets/fotos-stories/`; artes prontas em `saida/stories-venda/`; links por Story em `saida/stories-venda/LINKS.txt` (o link vai no sticker, não na imagem).
 - Produtos/preços atuais: MDI Select (De R$ 49,90/mês por R$ 29,90/mês; anual De R$ 598,80/ano por R$ 299,00/ano, "Economize R$ 299,80"), Indicadores MDI Timing & Sentimento (R$ 79,90 → R$ 39,90), Do Zero ao Patrimônio (R$ 59,90 → R$ 29,90), Combo Do Zero à Análise (R$ 139,80 → R$ 49,90).
 - REGRA: NUNCA publicar Stories de venda na rotina automática nem por iniciativa própria. Publicar apenas quando o dono pedir expressamente (e dizer qual Story). Os preços só valem enquanto o dono não alterar.
+
+
+## REELS (adicionado em 2026-10-30)
+`publish_instagram.py` publica Reel quando o único item de `--images` termina em `.mp4` (subir o vídeo ao repositório primeiro, como as imagens). Reels de terceiros: só com autorização declarada pelo dono; nunca baixar/republicar vídeo alheio por iniciativa do agente. Preferir memes ORIGINAIS do MDI.
