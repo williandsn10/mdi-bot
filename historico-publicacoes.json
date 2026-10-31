@@ -167,7 +167,21 @@
       "produto": "ebook",
       "status": "publicado",
       "observacao": "Post manual do dono; publicado so na aba Reels; nao entra na alternancia do Modelo 1."
+    },
+    {
+      "data": "2026-10-31",
+      "assunto": "Vale (VALE3) 3T26: EBITDA do cobre +66% (US$ 1 bi) e lucro liquido -53% (US$ 1,255 bi)",
+      "modelo": "claro",
+      "post_id": "18130511816484247",
+      "fontes": [
+        "Vale, vale.com, 29-30/10/2026 (cobre)",
+        "Cobertura de mercado (lucro, minerio de ferro; nao conferido no Relatorio de Desempenho)"
+      ],
+      "produto": "guia",
+      "logo": "VALE3",
+      "status": "publicado",
+      "observacao": "Post manual do dono, Modelo 1 (conta na alternancia), primeiro com logo da empresa no slide 1."
     }
   ],
-  "proximo_modelo": "claro"
+  "proximo_modelo": "escuro"
 }
