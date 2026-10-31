@@ -80,6 +80,23 @@ def wrap(d, words, maxw):
     if cur: lines.append(cur)
     return lines
 
+def draw_logo_card(im, d, ticker, y, theme):
+    """Cartao claro com o logo oficial da empresa (assets/logos/<TICKER>.png), so no slide 1."""
+    path = os.path.join(ROOT, "assets", "logos", ticker + ".png")
+    if not os.path.exists(path):
+        return
+    lg = Image.open(path).convert("RGBA")
+    bb = lg.getchannel("A").point(lambda v: 255 if v > 10 else 0).getbbox()
+    if bb:
+        lg = lg.crop(bb)
+    cw, ch = (W - 2 * M) * S, 210 * S
+    x0, y0 = M * S, y + 30 * S
+    d.rounded_rectangle([x0, y0, x0 + cw, y0 + ch], radius=28 * S, fill=(247, 248, 249), outline=(207, 217, 222), width=2 * S)
+    r = min(cw * 0.55 / lg.width, ch * 0.52 / lg.height)
+    lg = lg.resize((int(lg.width * r), int(lg.height * r)), Image.LANCZOS)
+    im.paste(lg, (x0 + (cw - lg.width) // 2, y0 + (ch - lg.height) // 2), lg)
+
+
 def render(av, spec, path, theme):
     BLACK, GREY = theme["fg"], theme["grey"]
     size = spec.get("size", 54)
@@ -103,6 +120,8 @@ def render(av, spec, path, theme):
                     d.text((x, y), t, font=fn, fill=BLACK); x += d.textlength(t, font=fn)
                 x += d.textlength(" ", font=word[-1][1])
             y += lh
+    if spec.get("logo"):
+        draw_logo_card(im, d, spec["logo"], y, theme)
     if spec.get("arrow"):
         d.text(((W - M) * S, (H - 150) * S), "→", font=f("segoeui.ttf", 84), fill=BLACK, anchor="ra")
     im.resize((W, H), Image.LANCZOS).save(path)

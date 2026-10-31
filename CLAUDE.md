@@ -129,3 +129,10 @@ Quando o usuário enviar um vídeo meme (arquivo .mp4) e pedir para publicar no 
 
 ## REELS: SOMENTE NA ABA REELS (definido pelo usuário em 2026-10-30)
 Todo Reel é publicado SÓ na grade/aba de Reels, sem aparecer na grade principal do feed (`share_to_feed=false` no `publish_instagram.py`). Posts de imagem e carrossel continuam normais no feed. Não reverter sem pedido do dono.
+
+
+## LOGO DA EMPRESA NO SLIDE 1 — MODELO 1 (aprovado pelo usuário em 2026-10-31)
+Quando a pauta for UMA empresa específica, o slide 1 do Modelo 1 leva o logo oficial dentro de um cartão claro abaixo do texto (campo `"logo": "TICKER"` no slide 1 do JSON; arquivo em `assets/logos/TICKER.png`, ex.: `VALE3.png`). Só no slide 1; não usar em temas de mercado em geral (juros, inflação, Bolsa).
+- Usar apenas o logo OFICIAL (site de RI, área de imprensa ou site da empresa), sem alterar cores nem redesenhar; PNG com fundo transparente. Sem logo oficial de boa qualidade: slide 1 sai sem logo, o agente não improvisa.
+- O logo só identifica de quem se fala; não sugere parceria nem aval. Manter "sem recomendação" na legenda.
+- Exemplo: `carrossel-vale3-31-10/slides-claro.json`.
