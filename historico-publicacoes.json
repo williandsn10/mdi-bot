@@ -158,6 +158,15 @@
       "produto": "ebook",
       "status": "publicado",
       "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Sem credito por decisao do dono."
+    },
+    {
+      "data": "2026-10-31",
+      "assunto": "Reel meme: 'Meu salario tentando pagar minhas contas' (clipe fornecido pelo dono)",
+      "modelo": "reel-meme",
+      "post_id": "18056646035588837",
+      "produto": "ebook",
+      "status": "publicado",
+      "observacao": "Post manual do dono; publicado so na aba Reels; nao entra na alternancia do Modelo 1."
     }
   ],
   "proximo_modelo": "claro"
