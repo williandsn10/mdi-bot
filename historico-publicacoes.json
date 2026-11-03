@@ -181,6 +181,18 @@
       "logo": "VALE3",
       "status": "publicado",
       "observacao": "Post manual do dono, Modelo 1 (conta na alternancia), primeiro com logo da empresa no slide 1."
+    },
+    {
+      "data": "2026-11-03",
+      "assunto": "Proposta de Lara Resende para reduzir a Selic de 13,75% a 7,5% (defendida por Gabrielli; Durigan e Mercadante afastam adocao imediata)",
+      "modelo": "modelo2",
+      "post_id": "18387122533231476",
+      "fontes": [
+        "Cobertura de politica e economia, 1-3/11/2026 (secundaria, so legenda)"
+      ],
+      "produto": "none",
+      "status": "publicado",
+      "observacao": "Post manual do dono; tema politico, tom neutro; nao entra na alternancia do Modelo 1. Fotos ineditas (juros1-6)."
     }
   ],
   "proximo_modelo": "escuro"
