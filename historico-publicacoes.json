@@ -193,6 +193,18 @@
       "produto": "none",
       "status": "publicado",
       "observacao": "Post manual do dono; tema politico, tom neutro; nao entra na alternancia do Modelo 1. Fotos ineditas (juros1-6)."
+    },
+    {
+      "data": "2026-11-03",
+      "assunto": "Mercado Bitcoin: incidente de seguranca (2/11) e ataque a Binance (US$ 6,3 bi)",
+      "modelo": "modelo2",
+      "post_id": "17919565539531221",
+      "fontes": [
+        "Comunicados das empresas e cobertura de mercado, 30/10 a 2/11/2026 (secundarias, so legenda)"
+      ],
+      "produto": "none",
+      "status": "publicado",
+      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Fotos ineditas (cripto1-6). Retomada das operacoes do MB nao confirmada na epoca."
     }
   ],
   "proximo_modelo": "escuro"
