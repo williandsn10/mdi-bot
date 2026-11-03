@@ -205,7 +205,19 @@
       "produto": "none",
       "status": "publicado",
       "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Fotos ineditas (cripto1-6). Retomada das operacoes do MB nao confirmada na epoca."
+    },
+    {
+      "data": "2026-11-03",
+      "assunto": "Itau (ITUB4) 3T26: lucro recorrente gerencial R$ 12,6 bi (+1,7% t/t, +6,2% a/a), ROE 23,6%, em linha com consenso",
+      "modelo": "escuro",
+      "post_id": "18130810966889914",
+      "fontes": [
+        "Itau Unibanco, Press Release e Apresentacao Institucional 3T26, CVM protocolos 1583273 e 1583279, 3/11/2026"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/ITUB4.png inexistente). Doc 'Projecoes 2026' nao baixou; so o release foi usado."
     }
   ],
-  "proximo_modelo": "escuro"
+  "proximo_modelo": "claro"
 }
