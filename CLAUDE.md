@@ -136,3 +136,7 @@ Quando a pauta for UMA empresa específica, o slide 1 do Modelo 1 leva o logo of
 - Usar apenas o logo OFICIAL (site de RI, área de imprensa ou site da empresa), sem alterar cores nem redesenhar; PNG com fundo transparente. Sem logo oficial de boa qualidade: slide 1 sai sem logo, o agente não improvisa.
 - O logo só identifica de quem se fala; não sugere parceria nem aval. Manter "sem recomendação" na legenda.
 - Exemplo: `carrossel-vale3-31-10/slides-claro.json`.
+
+
+## REGRA DE FOTOS: NUNCA REPETIR IMAGENS ENTRE POSTS (definida pelo usuário em 2026-11-03)
+No Modelo 2 (e em qualquer arte com foto), TODA foto deve ser INÉDITA: nunca reutilizar uma imagem já usada em outro post do perfil. Antes de escolher, conferir `assets/fotos/LICENCAS.txt` (lista de tudo que já foi baixado/usado) e baixar fotos novas do Pexels (licença comercial gratuita) para cada slide, registrando as novas no mesmo arquivo. Também não repetir a mesma foto em dois slides do mesmo post. Evitar fotos com marcas, textos de marcas ou bancos reais legíveis e rostos reconhecíveis.
