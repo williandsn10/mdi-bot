@@ -242,7 +242,19 @@
       "produto": "ebook",
       "status": "publicado",
       "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Fotos ineditas (copom1b, copom2-6)."
+    },
+    {
+      "data": "2026-11-05",
+      "assunto": "BB Seguridade (BBSE3): guidance 2026 revisado - premios emitidos Brasilseg de -3% a +2% para -15% a -11%; demais indicadores mantidos",
+      "modelo": "escuro",
+      "post_id": "18436276009147285",
+      "fontes": [
+        "BB Seguridade, Fato Relevante, CVM protocolo 1583332, 03/11/2026"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/BBSE3.png inexistente)."
     }
   ],
-  "proximo_modelo": "escuro"
+  "proximo_modelo": "claro"
 }
