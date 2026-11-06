@@ -254,6 +254,18 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Sem logo (assets/logos/BBSE3.png inexistente)."
+    },
+    {
+      "data": "2026-11-06",
+      "assunto": "Educativo: como usar indicadores (RSI, media movel, fundamentalistas, Fear & Greed) em acoes, fundos e criptos",
+      "modelo": "modelo2",
+      "post_id": "18133408813738832",
+      "fontes": [
+        "Conteudo educacional proprio"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Post manual do dono (Modelo 2, 7 slides + final); nao entra na alternancia do Modelo 1. Fotos ineditas (ind1-7)."
     }
   ],
   "proximo_modelo": "claro"
