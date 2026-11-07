@@ -178,10 +178,5 @@ Em qualquer dia, se houver FATO realmente relevante e atual (fato relevante, res
 - Máximo 1 post por execução. Se algo falhar (foto, API, número duvidoso), registre `"status": "pulado"` com o motivo; não publique pela metade.
 
 
-## STORY AUTOMÁTICO DO POST (definido pelo usuário em 2026-11-07) — vale para TODAS as rotinas (Modelo 1 e Modelo 2)
-Logo APÓS publicar um carrossel/post com sucesso no feed, publicar também um Story-teaser (não vale para Reels, Stories de venda ou posts pulados):
-1. Gerar: `python scripts/story_post.py saida/<pasta-do-post>` (usa o slide1.png; cria `story.jpg` 1080x1920, fundo preto, rótulo dourado "NOVO NO FEED"; não acrescenta texto novo sobre o fato).
-2. Subir ao repositório (`git add saida/<pasta>/story.jpg && git commit && git push origin HEAD:main`).
-3. Publicar: `python scripts/publish_instagram.py --story --images saida/<pasta>/story.jpg --caption "-" --base-url https://raw.githubusercontent.com/williandsn10/mdi-bot/main`.
-4. No histórico, acrescentar no item do post `"story_id": "<id>"`. Se o Story falhar, NÃO repetir o post do feed; registrar `"story_erro": "<motivo>"` e seguir.
-Sem sticker de link (a API não permite); a arte já manda abrir o carrossel no feed. Um Story por post, no máximo.
+## STORY AUTOMÁTICO DO POST — DESATIVADO (2026-11-07)
+O dono pediu para retirar. NÃO gerar nem publicar Stories nas rotinas. Os scripts `story_post.py` e `--story` ficam disponíveis apenas se o dono pedir expressamente.
