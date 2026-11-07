@@ -55,3 +55,9 @@ ind4.jpg  https://www.pexels.com/photo/close-up-of-traffic-lights-15833752/
 ind5.jpg  https://www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-6693647/
 ind6.jpg  https://www.pexels.com/photo/a-close-up-shot-of-bitcoin-commemorative-coins-12920766/
 ind7.jpg  https://www.pexels.com/photo/statistics-on-a-desk-in-office-8124410/
+dy1.jpg  https://www.pexels.com/photo/plant-on-a-glass-bottle-with-coins-6774947/
+dy2.jpg  https://www.pexels.com/photo/close-up-shot-of-a-jar-with-coins-9755390/
+dy3.jpg  https://www.pexels.com/photo/a-person-holding-coins-with-a-small-plant-5550904/
+dy4.jpg  https://www.pexels.com/photo/coins-in-a-jar-6863252/
+dy5.jpg  https://www.pexels.com/photo/calculator-red-pen-and-coins-on-notepad-7111496/
+dy6.jpg  https://www.pexels.com/photo/black-calculator-beside-coins-and-notebook-5466785/
