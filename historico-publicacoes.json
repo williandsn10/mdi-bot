@@ -266,6 +266,18 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Post manual do dono (Modelo 2, 7 slides + final); nao entra na alternancia do Modelo 1. Fotos ineditas (ind1-7)."
+    },
+    {
+      "data": "2026-11-07",
+      "assunto": "Educativo: dividend yield (definição, exemplo, armadilha do yield alto e o que olhar além)",
+      "modelo": "modelo2",
+      "rotina": "m2-sab",
+      "post_id": "18055632443804790",
+      "fontes": [
+        "Conteúdo educativo original (definições gerais)"
+      ],
+      "produto": "guia",
+      "status": "publicado"
     }
   ],
   "proximo_modelo": "claro"
