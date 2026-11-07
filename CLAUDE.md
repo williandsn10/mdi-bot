@@ -140,3 +140,39 @@ Quando a pauta for UMA empresa específica, o slide 1 do Modelo 1 leva o logo of
 
 ## REGRA DE FOTOS: NUNCA REPETIR IMAGENS ENTRE POSTS (definida pelo usuário em 2026-11-03)
 No Modelo 2 (e em qualquer arte com foto), TODA foto deve ser INÉDITA: nunca reutilizar uma imagem já usada em outro post do perfil. Antes de escolher, conferir `assets/fotos/LICENCAS.txt` (lista de tudo que já foi baixado/usado) e baixar fotos novas do Pexels (licença comercial gratuita) para cada slide, registrando as novas no mesmo arquivo. Também não repetir a mesma foto em dois slides do mesmo post. Evitar fotos com marcas, textos de marcas ou bancos reais legíveis e rostos reconhecíveis.
+
+
+## ROTINA MODELO 2 DIÁRIA — dias SEM Modelo 1 (definida pelo usuário em 2026-11-07)
+Objetivo: nenhum dia sem conteúdo. O Modelo 1 cobre terça, quarta e quinta. O Modelo 2 cobre os outros dias, com foco em ENGAJAMENTO e GANHO DE SEGUIDORES (saves, compartilhamentos, comentários), sem abrir mão de credibilidade. Publicação automática, sem aprovação humana; na dúvida, NÃO publique (regras "Quando NÃO publicar" valem integralmente).
+
+### Programação (Brasília) e formato de cada dia
+- **Segunda 12h — "A semana no mercado":** agenda do que pode mexer com o investidor nos próximos dias (decisões de juros, divulgação de índices como IPCA/PIB/emprego, resultados e eventos de empresas da B3, datas de dividendos). Só datas CONFIRMADAS em fonte primária (Banco Central, IBGE, B3, RI das empresas, calendários oficiais). Se não houver datas confirmadas suficientes, troque por conteúdo educativo (formato de sábado).
+- **Sexta 18h — "Resumo da semana":** 5 fatos que mexeram com o mercado na semana, com números confirmados (mercado, juros, câmbio, empresas). Pode aproveitar pautas já publicadas pelo Modelo 1, sem repetir o mesmo texto. Sem previsão de preços.
+- **Sábado 11h — "Aprenda no sábado" (educação):** conceito ou erro comum de investimento explicado de forma simples (ex.: o que é dividend yield, diferença entre CDB e Tesouro, juros compostos, reserva de emergência, mito x verdade, glossário). Conteúdo ORIGINAL e atemporal, sem depender de notícia.
+- **Domingo 19h — "Planeje a semana" (hábitos e comportamento):** educação financeira prática e leve (organização do orçamento, erros de comportamento do investidor, checklist antes de investir, perguntas para fazer antes de comprar). Salvável e compartilhável.
+Em qualquer dia, se houver FATO realmente relevante e atual (fato relevante, resultado importante, decisão de juros), pode usá-lo no lugar do tema padrão, com fonte primária.
+
+### Como construir um post que engaja (sem sensacionalismo)
+- Slide 1 = GANCHO forte e honesto: pergunta, contraste real ou número específico ("5 erros...", "O que muda esta semana"). Nada de "URGENTE", clickbait ou promessa de ganho.
+- Carrossel de 6 slides de conteúdo + 1 slide final (7 no total; até 8 de conteúdo se o tema exigir). Um fato ou ideia por slide; frases curtas; números e termos-chave em dourado (`**texto**`).
+- Estruturas que geram SAVE e COMPARTILHAMENTO: listas numeradas, passo a passo, "mito x verdade", checklist, glossário, agenda da semana. Último slide de conteúdo: pergunta ou "o que levar daqui".
+- Legenda cativante (regras do Modelo 2): 1ª linha = gancho; 2–3 parágrafos curtos; "por que importa"; o que NÃO se sabe (quando for notícia); PERGUNTA ao leitor para gerar comentário; "Salve este post e compartilhe com um amigo investidor"; "Siga @mentedeinvestidor.br e acesse mentedeinvestidor.com.br"; linha do produto MDI do tema; "Fontes:" (quando houver notícia/dado); aviso "Conteúdo informativo/educacional, sem recomendação de compra ou venda."; 4–6 hashtags específicas.
+- Tag no rodapé da arte: `"tag": "Mercado"` (agenda/resumo), `"Educação"` (sábado/domingo).
+- Produto no slide final (um só, pelo tema): `carteira` (Bolsa, decisões, oportunidades), `guia` (indicadores, resultados, valuation, dividendos), `ebook` (juros, inflação, renda fixa, orçamento, iniciantes). Tema sem encaixe: `none`.
+
+### Execução técnica (Modelo 2)
+1. Ambiente: `python3 -m venv /tmp/v && /tmp/v/bin/pip install -q -r requirements.txt`; use `/tmp/v/bin/python`.
+2. Escolha o tema do dia (não repetir assunto dos últimos 14 dias no histórico). Registre o tipo da rotina no histórico em `"rotina": "m2-seg|m2-sex|m2-sab|m2-dom"`.
+3. Fotos INÉDITAS (regra de fotos): para cada slide, achar uma foto temática no Pexels. Como o site pode bloquear acesso direto, use `WebSearch` com `allowed_domains: ["pexels.com"]` para obter páginas de fotos (o ID é o número no fim da URL) e baixe da CDN:
+   `curl -sL -A "Mozilla/5.0" -o assets/fotos/<nome>.jpg "https://images.pexels.com/photos/<ID>/pexels-photo-<ID>.jpeg?auto=compress&cs=tinysrgb&h=1600"`
+   Confira se o ID NÃO consta em `assets/fotos/LICENCAS.txt`; depois de usar, acrescente linhas `<nome>.jpg  https://www.pexels.com/photo/<slug>-<ID>/` ao `LICENCAS.txt` e faça commit. Não repetir foto dentro do mesmo post. Evitar fotos com marcas, bancos reais legíveis ou rostos reconhecíveis. Confira cada foto (Read) antes de usar. Se não conseguir foto para um slide, OMITA o campo `image` (o script gera fundo abstrato escuro com brilho dourado).
+4. JSON: `{"out": "saida/AAAA-MM-DD-<tema>", "tag": "Educação", "fonte": "", "slides": [{"size": 60, "image": "assets/fotos/x.jpg", "text": "Texto com **destaque**"}, ..., {"final": "ebook"}]}`. Tamanho de fonte 46–62 (texto longo = menor). Gerar: `/tmp/v/bin/python scripts/modelo2_forbes.py slides.json`. CONFERIR cada PNG (Read): texto cortado, legibilidade sobre a foto, números certos; se estourar, reduza `size`.
+5. Publicar: `git add saida assets/fotos/LICENCAS.txt && git commit && git push origin HEAD:main`; depois `/tmp/v/bin/python scripts/publish_instagram.py --base-url https://raw.githubusercontent.com/williandsn10/mdi-bot/main --images saida/<pasta>/slide1.png ... slideN.png --caption "..."` (máx. 10 imagens).
+6. Histórico: acrescentar `{data, assunto, modelo: "modelo2", rotina, post_id, fontes, produto, status: "publicado"}` em `historico-publicacoes.json` (NÃO alterar `proximo_modelo`, pois Modelo 2 não entra na alternância do Modelo 1), `git add -A && git commit && git push origin HEAD:main`.
+7. Relatório final curto: pauta, rotina, post_id, fontes, problemas.
+
+### Salvaguardas
+- Notícia/dado vem de fonte secundária? Confirme em fonte primária antes de publicar. Sem nome de portal/veículo nas artes (só na linha "Fontes:" da legenda).
+- Nunca prometer retorno, nunca recomendar compra/venda, nunca prever preço. Política só com relação clara com economia e tom neutro.
+- Conteúdo educativo: não inventar estatística; use definições e exemplos genéricos corretos; quando citar números, que sejam definições (ex.: "RSI vai de 0 a 100") ou dados com fonte.
+- Máximo 1 post por execução. Se algo falhar (foto, API, número duvidoso), registre `"status": "pulado"` com o motivo; não publique pela metade.

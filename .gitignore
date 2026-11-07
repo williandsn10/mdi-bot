@@ -1,3 +1,6 @@
 .env
 __pycache__/
 *.pyc
+
+# fotos baixadas do Pexels nao entram no repositorio (so a lista LICENCAS.txt)
+assets/fotos/*.jpg
