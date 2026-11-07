@@ -20,6 +20,7 @@ TOKEN = os.getenv("INSTAGRAM_ACCESS_TOKEN")
 BASE_URL = f"https://graph.instagram.com/{os.getenv('META_API_VERSION', 'v21.0')}"
 
 
+STORY_MODE = False
 BASE_PUBLIC_URL = None  # ex.: https://raw.githubusercontent.com/williandsn10/mdi-bot/main
 
 
@@ -109,6 +110,20 @@ def create_reel(video_path: str, caption: str) -> str:
     return result["id"]
 
 
+def create_story(image_path: str) -> str:
+    """Story de imagem (JPEG 1080x1920 ja enviado ao repositorio publico)."""
+    resp = requests.post(f"{BASE_URL}/{IG_ID}/media", data={
+        "access_token": TOKEN,
+        "media_type": "STORIES",
+        "image_url": host_image(image_path),
+    }, timeout=60)
+    result = resp.json()
+    if "id" not in result:
+        raise RuntimeError(f"Erro story: {result}")
+    print(f"  Story: {result['id']}")
+    return result["id"]
+
+
 def wait_ready(container_id: str) -> bool:
     for i in range(12):
         resp = requests.get(f"{BASE_URL}/{container_id}",
@@ -147,6 +162,15 @@ def run(images: list, caption: str, dry_run: bool = False):
         print("[DRY RUN] Tudo OK. Remova --dry-run para publicar.")
         return
 
+    if STORY_MODE:
+        print("\nStory...")
+        cid = create_story(images[0])
+        if not wait_ready(cid):
+            print("ERRO: Timeout no processamento.")
+            sys.exit(1)
+        print(f"\nStory publicado! ID: {publish(cid)}")
+        return
+
     if len(images) == 1:
         is_video = images[0].lower().endswith(".mp4")
         print("\nReel (video)..." if is_video else "\nPost de imagem unica...")
@@ -173,8 +197,10 @@ if __name__ == "__main__":
     parser.add_argument("--images", nargs="+", required=True)
     parser.add_argument("--caption", required=True)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--story", action="store_true", help="publica a imagem como Story (use --caption \"-\")")
     parser.add_argument("--base-url", help="URL base pública do repositório (raw.githubusercontent.com/...); "
                         "as imagens precisam estar commitadas e com push feito")
     args = parser.parse_args()
     BASE_PUBLIC_URL = args.base_url
+    STORY_MODE = args.story
     run(args.images, args.caption, args.dry_run)
