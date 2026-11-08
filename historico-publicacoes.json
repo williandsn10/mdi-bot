@@ -278,6 +278,18 @@
       ],
       "produto": "guia",
       "status": "publicado"
+    },
+    {
+      "data": "2026-11-08",
+      "assunto": "Planeje a semana: checklist de 5 perguntas antes de investir (objetivo, reserva, entendimento, risco, emoção)",
+      "modelo": "modelo2",
+      "rotina": "m2-dom",
+      "post_id": "18183733114428364",
+      "fontes": [
+        "Conteúdo educativo original"
+      ],
+      "produto": "ebook",
+      "status": "publicado"
     }
   ],
   "proximo_modelo": "claro"
