@@ -290,6 +290,19 @@
       ],
       "produto": "ebook",
       "status": "publicado"
+    },
+    {
+      "data": "2026-11-09",
+      "assunto": "Educativo: juros compostos (juros sobre juros, exemplo R$ 1.000 a 10%, tempo, dívidas)",
+      "modelo": "modelo2",
+      "rotina": "m2-seg",
+      "post_id": "17903763621531913",
+      "fontes": [
+        "Conteúdo educativo original (definições gerais)"
+      ],
+      "produto": "ebook",
+      "status": "publicado",
+      "observacao": "Agenda da semana trocada por educativo: datas (IPCA 12/11, balanços) só em fontes secundárias, sem confirmação primária (IBGE/BCB/RI bloquearam acesso)."
     }
   ],
   "proximo_modelo": "claro"
