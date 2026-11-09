@@ -1,0 +1,9 @@
+{"out":"saida/2026-11-09-juros-compostos","tag":"Educação","fonte":"","slides":[
+{"size":62,"image":"assets/fotos/jc4.jpg","text":"Juros compostos: **juros sobre juros**. Entenda em 6 passos"},
+{"size":52,"image":"assets/fotos/jc3.jpg","text":"**1. Juros simples:** o rendimento é calculado só sobre o valor **inicial**. Todo período rende o mesmo."},
+{"size":52,"text":"**2. Juros compostos:** o rendimento de cada período é somado ao capital. No período seguinte, os juros incidem sobre **o total**."},
+{"size":50,"text":"**3. Exemplo:** R$ 1.000 a **10% ao período**. Simples: R$ 1.100, R$ 1.200, R$ 1.300. Composto: R$ 1.100, **R$ 1.210**, **R$ 1.331**."},
+{"size":50,"text":"**4. O ingrediente é o tempo.** Quanto mais períodos, maior a diferença entre juros simples e compostos."},
+{"size":50,"text":"**5. Vale nos dois sentidos:** os juros compostos também aumentam **dívidas**, como o rotativo do cartão."},
+{"size":52,"text":"**6. O que levar daqui:** antes de investir, veja a taxa, o prazo e se os rendimentos são reaplicados. **Você já calculou o seu?** Comente."},
+{"final":"ebook"}]}
