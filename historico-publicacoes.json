@@ -303,7 +303,19 @@
       "produto": "ebook",
       "status": "publicado",
       "observacao": "Agenda da semana trocada por educativo: datas (IPCA 12/11, balanços) só em fontes secundárias, sem confirmação primária (IBGE/BCB/RI bloquearam acesso)."
+    },
+    {
+      "data": "2026-11-10",
+      "assunto": "Embraer (EMBJ3): guidance 2026 revisado - receita US$ 8,4-8,6 bi (antes 8,2-8,5), FCL US$ 700 mi ou mais (antes 400 ou mais); entregas e margem EBIT mantidas",
+      "modelo": "claro",
+      "post_id": "18157693768587233",
+      "fontes": [
+        "Embraer, Fato Relevante, CVM protocolo 1586711, 10/11/2026"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/EMBJ3.png inexistente)."
     }
   ],
-  "proximo_modelo": "claro"
+  "proximo_modelo": "escuro"
 }
