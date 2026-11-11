@@ -315,7 +315,20 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Sem logo (assets/logos/EMBJ3.png inexistente)."
+    },
+    {
+      "data": "2026-11-11",
+      "assunto": "Petrobras (PETR4): proventos de R$ 15,3 bi (R$ 1,18732774/acao, data base 21/12) e projecoes 2026 elevadas (producao 3,3-3,4 mi boed; Capex US$ 24-25,5 bi; caixa operacional US$ 45-50 bi)",
+      "modelo": "escuro",
+      "post_id": "17904781458370549",
+      "fontes": [
+        "Petrobras, Fato Relevante remuneracao, CVM protocolo 1587545, 10/11/2026",
+        "Petrobras, Fato Relevante projecoes 2026, CVM protocolo 1587552, 10/11/2026"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/PETR4.png inexistente)."
     }
   ],
-  "proximo_modelo": "escuro"
+  "proximo_modelo": "claro"
 }
