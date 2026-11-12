@@ -328,7 +328,20 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Sem logo (assets/logos/PETR4.png inexistente)."
+    },
+    {
+      "data": "2026-11-12",
+      "assunto": "Banco do Brasil (BBAS3): projecao 2026 de lucro ajustado cortada de R$ 18-22 bi para R$ 9-11 bi; custo do credito R$ 80-83 bi; payout 2026 de 30% para 25% e 2027 em 25%",
+      "modelo": "claro",
+      "post_id": "18352087039280809",
+      "fontes": [
+        "Banco do Brasil, Fato Relevante projecoes, CVM protocolo 1587982, 11/11/2026",
+        "Banco do Brasil, Fato Relevante remuneracao, CVM protocolo 1587981, 11/11/2026"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/BBAS3.png inexistente)."
     }
   ],
-  "proximo_modelo": "claro"
+  "proximo_modelo": "escuro"
 }
