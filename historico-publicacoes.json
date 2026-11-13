@@ -354,8 +354,24 @@
         "Fatos Relevantes CVM: Embraer 10/11, Petrobras 10/11, BB 11/11"
       ],
       "produto": "guia",
+      "status": "substituido",
+      "observacao": "Sem fotos (fundo abstrato). Publicado sem fotos (fundo abstrato); apagado pelo dono e refeito com fotos em 13/11 (post 17937089589144417)."
+    },
+    {
+      "data": "2026-11-13",
+      "assunto": "Resumo da semana: ata Copom (Selic 13,75%), IPCA out 0,14%/4,63% 12m, Embraer guidance, Petrobras proventos, BBAS3 guidance",
+      "modelo": "modelo2",
+      "rotina": "m2-sex",
+      "post_id": "17937089589144417",
+      "fontes": [
+        "BCB, Ata Copom 282, 3-4/11/2026",
+        "BCB SGS series 433/13522 (IPCA IBGE out/2026)",
+        "Fatos Relevantes CVM: Embraer 10/11, Petrobras 10/11, BB 11/11"
+      ],
+      "produto": "guia",
       "status": "publicado",
-      "observacao": "Sem fotos (fundo abstrato)."
+      "observacao": "Refacao do post 18136813831794844 com 7 fotos ineditas do Pexels (rs13-1 a rs13-7); mesmos textos e legenda.",
+      "arte": "saida/2026-11-13-resumo-da-semana-v2"
     }
   ],
   "proximo_modelo": "escuro"
