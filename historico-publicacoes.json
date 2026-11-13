@@ -341,6 +341,21 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Sem logo (assets/logos/BBAS3.png inexistente)."
+    },
+    {
+      "data": "2026-11-13",
+      "assunto": "Resumo da semana: ata Copom (Selic 13,75%), IPCA out 0,14%/4,63% 12m, Embraer guidance, Petrobras proventos, BBAS3 guidance",
+      "modelo": "modelo2",
+      "rotina": "m2-sex",
+      "post_id": "18136813831794844",
+      "fontes": [
+        "BCB, Ata Copom 282, 3-4/11/2026",
+        "BCB SGS series 433/13522 (IPCA IBGE out/2026)",
+        "Fatos Relevantes CVM: Embraer 10/11, Petrobras 10/11, BB 11/11"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem fotos (fundo abstrato)."
     }
   ],
   "proximo_modelo": "escuro"
