@@ -4,7 +4,8 @@ Uso: python scripts/modelo2_forbes.py slides.json
 slides.json: {"out": "pasta", "tag": "Mercado", "fonte": "Fonte: CNN Brasil, 19/10/2026",
   "slides": [{"text": "Titulo **com destaque**", "size": 66, "image": "caminho/foto.jpg", "tone": 0},
              ..., {"cta": true, "text": ["linha 1", "linha 2"]}]}
-Sem "image", gera um fundo abstrato escuro com brilho dourado (sem fotos de terceiros).
+Todo slide de conteudo PRECISA de "image" (arquivo existente); sem isso o script para com erro.
+Fundo abstrato escuro so com "sem_foto": true no topo do JSON (uso manual, nunca na rotina automatica).
 Com "image" (foto sua ou licenciada), ela vira o fundo em tela cheia com degrade escuro na base.
 Saida: slide1.png ... (1080x1350).
 """
@@ -179,6 +180,12 @@ if __name__ == "__main__":
     os.makedirs(out, exist_ok=True)
     lg = logo()
     tag, fonte = cfg.get("tag", "Mercado"), cfg.get("fonte", "")
+    if not cfg.get("sem_foto"):
+        falta = [i for i, s in enumerate(cfg["slides"], 1) if not (s.get("final") or s.get("cta"))
+                 and not (s.get("image") and os.path.isfile(os.path.join(ROOT, s["image"])))]
+        if falta:
+            sys.exit(f"ERRO: slide(s) {falta} sem foto (campo 'image' ausente ou arquivo inexistente). "
+                     "Modelo 2 exige foto inedita em todo slide de conteudo; nada foi gerado.")
     for i, s in enumerate(cfg["slides"], 1):
         if s.get("final"):
             from cta_final import make_cta
