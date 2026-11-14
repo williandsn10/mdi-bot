@@ -1,378 +1,390 @@
 {
-  "regra": "Alternar Modelo 1: claro -> escuro -> claro... Considerar sempre a ULTIMA publicacao efetivamente realizada (inclui extraordinarias). Atualizar este arquivo a cada publicacao.",
-  "publicacoes": [
-    {
-      "data": "2026-10-24",
-      "assunto": "BB Seguridade - renuncia de conselheira (Fato Relevante 23/10/2026)",
-      "modelo": "claro",
-      "post_id": "18097747826442312"
-    },
-    {
-      "data": "2026-10-24",
-      "assunto": "Bradesco - resultado 3T26",
-      "modelo": "escuro",
-      "post_id": "18138353518651602"
-    },
-    {
-      "data": "2026-10-24",
-      "assunto": "Embraer - carteira de pedidos e entregas 3T26 (US$ 35,7 bi)",
-      "modelo": "claro",
-      "post_id": "18393764485161356",
-      "fontes": [
-        "Embraer, Carteira de Pedidos & Entregas 3T26, 23/10/2026 (CVM)"
-      ],
-      "status": "publicado"
-    },
-    {
-      "data": "2026-10-24",
-      "assunto": "Inflacao e eleicao: Focus, Selic e IPCA (CNN Brasil, 19/10/2026)",
-      "modelo": "modelo2",
-      "post_id": "18057881201570088",
-      "fontes": [
-        "CNN Brasil, 19/10/2026 (secundaria)"
-      ],
-      "status": "publicado",
-      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
-    },
-    {
-      "data": "2026-10-26",
-      "assunto": "Ibovespa despenca e B3 aciona circuit breaker apos o 2o turno (dados parciais ate ~12h)",
-      "modelo": "modelo2",
-      "post_id": "18343195579287400",
-      "fontes": [
-        "CNN Brasil/Reuters, 26/10/2026",
-        "InfoMoney, 26/10/2026"
-      ],
-      "status": "publicado",
-      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
-    },
-    {
-      "data": "2026-10-26",
-      "assunto": "Tesouro recompra ate 15 milhoes de titulos prefixados (NTN-F 2031/2033/2037; teto R$ 15 bi de face)",
-      "modelo": "modelo2",
-      "post_id": "17916410352541526",
-      "fontes": [
-        "InfoMoney, 26/10/2026",
-        "ISTOE Dinheiro, 26/10/2026"
-      ],
-      "status": "publicado",
-      "observacao": "Post manual do dono (imagem unica); nao entra na alternancia do Modelo 1. Resultado do leilao nao confirmado na epoca."
-    },
-    {
-      "data": "2026-10-26",
-      "assunto": "Educativo: oportunidades em dias de queda forte na Bolsa (preco x valor, margem de seguranca)",
-      "modelo": "escuro",
-      "post_id": "18116903048108876",
-      "fontes": [
-        "InfoMoney, 26/10/2026 (apenas legenda)"
-      ],
-      "produto": "guia",
-      "status": "publicado",
-      "observacao": "Post manual do dono, Modelo 1 (conta na alternancia). Slide final unico com Guia de Indicadores."
-    },
-    {
-      "data": "2026-10-27",
-      "assunto": "Gerdau (GGBR4) - resultado 3T26 (EBITDA ajustado R$ 3,8 bi, dividendos R$ 0,34/acao)",
-      "modelo": "claro",
-      "post_id": "17943341757365534",
-      "fontes": [
-        "Gerdau, Divulgacao de Resultados 3T26, 27/10/2026 (CVM, protocolo 1580462)"
-      ],
-      "produto": "guia",
-      "status": "publicado"
-    },
-    {
-      "data": "2026-10-28",
-      "assunto": "Itau (ITUB4) compra 100% da NeoSpace (IA) por R$ 2,925 bi, pagamento diferido em 5 anos",
-      "modelo": "escuro",
-      "post_id": "17920715757246096",
-      "fontes": [
-        "Itau Unibanco, Fato Relevante, 26/10/2026 (CVM, protocolo 1580024)"
-      ],
-      "produto": "carteira",
-      "status": "publicado"
-    },
-    {
-      "data": "2026-10-28",
-      "assunto": "TCU calcula aliquota de referencia de 11,3% para a CBS (reforma tributaria)",
-      "modelo": "modelo2",
-      "post_id": "18132708463831383",
-      "fontes": [
-        "TCU, portal.tcu.gov.br, 28/10/2026",
-        "Reuters via Forbes Brasil, 28/10/2026 (secundaria, so legenda)"
-      ],
-      "produto": "ebook",
-      "status": "publicado",
-      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
-    },
-    {
-      "data": "2026-10-28",
-      "assunto": "BBAS3 (Banco do Brasil): queda de 29,33% em 26/10 e fechamento de 27/10 (R$ 17,38); cautela do mercado",
-      "modelo": "claro",
-      "post_id": "18092913266658144",
-      "fontes": [
-        "Cobertura de mercado 26-27/10/2026 (secundaria, so legenda)"
-      ],
-      "produto": "carteira",
-      "status": "publicado",
-      "observacao": "Post manual do dono, Modelo 1 (conta na alternancia). Numeros nao conferidos em RI/B3."
-    },
-    {
-      "data": "2026-10-28",
-      "assunto": "Fed mantem juros em 3,75%-4% (10x2; Cook e Hammack por alta de 0,25 p.p.)",
-      "modelo": "modelo2",
-      "post_id": "17966072391212500",
-      "fontes": [
-        "FOMC statement, federalreserve.gov, 28/10/2026",
-        "Cobertura de mercado (secundaria, so legenda)"
-      ],
-      "produto": "ebook",
-      "status": "publicado",
-      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
-    },
-    {
-      "data": "2026-10-29",
-      "assunto": "Petrobras (PETR4) - recorde de producao 3T26 (3,512 MMboed, +11,7% a/a, +5,3% t/t)",
-      "modelo": "escuro",
-      "post_id": "18118813081972114",
-      "fontes": [
-        "Petrobras, Relatorio de Producao e Vendas 3T26, 28/10/2026 (CVM, protocolo 1581329)"
-      ],
-      "produto": "guia",
-      "status": "publicado"
-    },
-    {
-      "data": "2026-10-30",
-      "assunto": "Reel meme: 'Quando perguntam quanto eu tenho investido. Eu:' (clipe de terceiros usado com autorizacao declarada pelo dono)",
-      "modelo": "reel-meme",
-      "post_id": "18112000559184068",
-      "produto": "ebook",
-      "status": "publicado",
-      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Sem credito por decisao do dono."
-    },
-    {
-      "data": "2026-10-30",
-      "assunto": "Reel meme: 'Como eu reagia perdendo R$100 quando era iniciante / Eu perdendo R$2.000 agora' (clipe fornecido pelo dono)",
-      "modelo": "reel-meme",
-      "post_id": "18111780650186638",
-      "produto": "ebook",
-      "status": "publicado",
-      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Sem credito por decisao do dono."
-    },
-    {
-      "data": "2026-10-31",
-      "assunto": "Reel meme: 'Meu salario tentando pagar minhas contas' (clipe fornecido pelo dono)",
-      "modelo": "reel-meme",
-      "post_id": "18056646035588837",
-      "produto": "ebook",
-      "status": "publicado",
-      "observacao": "Post manual do dono; publicado so na aba Reels; nao entra na alternancia do Modelo 1."
-    },
-    {
-      "data": "2026-10-31",
-      "assunto": "Vale (VALE3) 3T26: EBITDA do cobre +66% (US$ 1 bi) e lucro liquido -53% (US$ 1,255 bi)",
-      "modelo": "claro",
-      "post_id": "18130511816484247",
-      "fontes": [
-        "Vale, vale.com, 29-30/10/2026 (cobre)",
-        "Cobertura de mercado (lucro, minerio de ferro; nao conferido no Relatorio de Desempenho)"
-      ],
-      "produto": "guia",
-      "logo": "VALE3",
-      "status": "publicado",
-      "observacao": "Post manual do dono, Modelo 1 (conta na alternancia), primeiro com logo da empresa no slide 1."
-    },
-    {
-      "data": "2026-11-03",
-      "assunto": "Proposta de Lara Resende para reduzir a Selic de 13,75% a 7,5% (defendida por Gabrielli; Durigan e Mercadante afastam adocao imediata)",
-      "modelo": "modelo2",
-      "post_id": "18387122533231476",
-      "fontes": [
-        "Cobertura de politica e economia, 1-3/11/2026 (secundaria, so legenda)"
-      ],
-      "produto": "none",
-      "status": "publicado",
-      "observacao": "Post manual do dono; tema politico, tom neutro; nao entra na alternancia do Modelo 1. Fotos ineditas (juros1-6)."
-    },
-    {
-      "data": "2026-11-03",
-      "assunto": "Mercado Bitcoin: incidente de seguranca (2/11) e ataque a Binance (US$ 6,3 bi)",
-      "modelo": "modelo2",
-      "post_id": "17919565539531221",
-      "fontes": [
-        "Comunicados das empresas e cobertura de mercado, 30/10 a 2/11/2026 (secundarias, so legenda)"
-      ],
-      "produto": "none",
-      "status": "publicado",
-      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Fotos ineditas (cripto1-6). Retomada das operacoes do MB nao confirmada na epoca."
-    },
-    {
-      "data": "2026-11-03",
-      "assunto": "Itau (ITUB4) 3T26: lucro recorrente gerencial R$ 12,6 bi (+1,7% t/t, +6,2% a/a), ROE 23,6%, em linha com consenso",
-      "modelo": "escuro",
-      "post_id": "18130810966889914",
-      "fontes": [
-        "Itau Unibanco, Press Release e Apresentacao Institucional 3T26, CVM protocolos 1583273 e 1583279, 3/11/2026"
-      ],
-      "produto": "guia",
-      "status": "publicado",
-      "observacao": "Sem logo (assets/logos/ITUB4.png inexistente). Doc 'Projecoes 2026' nao baixou; so o release foi usado."
-    },
-    {
-      "data": "2026-11-04",
-      "assunto": "YDUQS (YDUQ3) x Afya: protocolo de incorporacao aprovado (69,0%/31,0%; troca 6,408347; sinergias VPL R$ 2-2,2 bi)",
-      "modelo": "claro",
-      "post_id": "18100050185397302",
-      "fontes": [
-        "YDUQS, Fato Relevante, CVM protocolo 1583559, 03/11/2026"
-      ],
-      "produto": "guia",
-      "status": "publicado",
-      "observacao": "Sem logo (assets/logos/YDUQ3.png inexistente)."
-    },
-    {
-      "data": "2026-11-04",
-      "assunto": "Copom mantem Selic em 13,75% (282a reuniao, unanime; interrompe 5 cortes)",
-      "modelo": "modelo2",
-      "post_id": "18468149488184950",
-      "fontes": [
-        "Banco Central, comunicado da 282a reuniao do Copom, 04/11/2026",
-        "InfoMoney, 04/11/2026 (secundaria, so legenda)"
-      ],
-      "produto": "ebook",
-      "status": "publicado",
-      "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Fotos ineditas (copom1b, copom2-6)."
-    },
-    {
-      "data": "2026-11-05",
-      "assunto": "BB Seguridade (BBSE3): guidance 2026 revisado - premios emitidos Brasilseg de -3% a +2% para -15% a -11%; demais indicadores mantidos",
-      "modelo": "escuro",
-      "post_id": "18436276009147285",
-      "fontes": [
-        "BB Seguridade, Fato Relevante, CVM protocolo 1583332, 03/11/2026"
-      ],
-      "produto": "guia",
-      "status": "publicado",
-      "observacao": "Sem logo (assets/logos/BBSE3.png inexistente)."
-    },
-    {
-      "data": "2026-11-06",
-      "assunto": "Educativo: como usar indicadores (RSI, media movel, fundamentalistas, Fear & Greed) em acoes, fundos e criptos",
-      "modelo": "modelo2",
-      "post_id": "18133408813738832",
-      "fontes": [
-        "Conteudo educacional proprio"
-      ],
-      "produto": "guia",
-      "status": "publicado",
-      "observacao": "Post manual do dono (Modelo 2, 7 slides + final); nao entra na alternancia do Modelo 1. Fotos ineditas (ind1-7)."
-    },
-    {
-      "data": "2026-11-07",
-      "assunto": "Educativo: dividend yield (definição, exemplo, armadilha do yield alto e o que olhar além)",
-      "modelo": "modelo2",
-      "rotina": "m2-sab",
-      "post_id": "18055632443804790",
-      "fontes": [
-        "Conteúdo educativo original (definições gerais)"
-      ],
-      "produto": "guia",
-      "status": "publicado"
-    },
-    {
-      "data": "2026-11-08",
-      "assunto": "Planeje a semana: checklist de 5 perguntas antes de investir (objetivo, reserva, entendimento, risco, emoção)",
-      "modelo": "modelo2",
-      "rotina": "m2-dom",
-      "post_id": "18183733114428364",
-      "fontes": [
-        "Conteúdo educativo original"
-      ],
-      "produto": "ebook",
-      "status": "publicado"
-    },
-    {
-      "data": "2026-11-09",
-      "assunto": "Educativo: juros compostos (juros sobre juros, exemplo R$ 1.000 a 10%, tempo, dívidas)",
-      "modelo": "modelo2",
-      "rotina": "m2-seg",
-      "post_id": "17903763621531913",
-      "fontes": [
-        "Conteúdo educativo original (definições gerais)"
-      ],
-      "produto": "ebook",
-      "status": "publicado",
-      "observacao": "Agenda da semana trocada por educativo: datas (IPCA 12/11, balanços) só em fontes secundárias, sem confirmação primária (IBGE/BCB/RI bloquearam acesso)."
-    },
-    {
-      "data": "2026-11-10",
-      "assunto": "Embraer (EMBJ3): guidance 2026 revisado - receita US$ 8,4-8,6 bi (antes 8,2-8,5), FCL US$ 700 mi ou mais (antes 400 ou mais); entregas e margem EBIT mantidas",
-      "modelo": "claro",
-      "post_id": "18157693768587233",
-      "fontes": [
-        "Embraer, Fato Relevante, CVM protocolo 1586711, 10/11/2026"
-      ],
-      "produto": "guia",
-      "status": "publicado",
-      "observacao": "Sem logo (assets/logos/EMBJ3.png inexistente)."
-    },
-    {
-      "data": "2026-11-11",
-      "assunto": "Petrobras (PETR4): proventos de R$ 15,3 bi (R$ 1,18732774/acao, data base 21/12) e projecoes 2026 elevadas (producao 3,3-3,4 mi boed; Capex US$ 24-25,5 bi; caixa operacional US$ 45-50 bi)",
-      "modelo": "escuro",
-      "post_id": "17904781458370549",
-      "fontes": [
-        "Petrobras, Fato Relevante remuneracao, CVM protocolo 1587545, 10/11/2026",
-        "Petrobras, Fato Relevante projecoes 2026, CVM protocolo 1587552, 10/11/2026"
-      ],
-      "produto": "guia",
-      "status": "publicado",
-      "observacao": "Sem logo (assets/logos/PETR4.png inexistente)."
-    },
-    {
-      "data": "2026-11-12",
-      "assunto": "Banco do Brasil (BBAS3): projecao 2026 de lucro ajustado cortada de R$ 18-22 bi para R$ 9-11 bi; custo do credito R$ 80-83 bi; payout 2026 de 30% para 25% e 2027 em 25%",
-      "modelo": "claro",
-      "post_id": "18352087039280809",
-      "fontes": [
-        "Banco do Brasil, Fato Relevante projecoes, CVM protocolo 1587982, 11/11/2026",
-        "Banco do Brasil, Fato Relevante remuneracao, CVM protocolo 1587981, 11/11/2026"
-      ],
-      "produto": "guia",
-      "status": "publicado",
-      "observacao": "Sem logo (assets/logos/BBAS3.png inexistente)."
-    },
-    {
-      "data": "2026-11-13",
-      "assunto": "Resumo da semana: ata Copom (Selic 13,75%), IPCA out 0,14%/4,63% 12m, Embraer guidance, Petrobras proventos, BBAS3 guidance",
-      "modelo": "modelo2",
-      "rotina": "m2-sex",
-      "post_id": "18136813831794844",
-      "fontes": [
-        "BCB, Ata Copom 282, 3-4/11/2026",
-        "BCB SGS series 433/13522 (IPCA IBGE out/2026)",
-        "Fatos Relevantes CVM: Embraer 10/11, Petrobras 10/11, BB 11/11"
-      ],
-      "produto": "guia",
-      "status": "substituido",
-      "observacao": "Sem fotos (fundo abstrato). Publicado sem fotos (fundo abstrato); apagado pelo dono e refeito com fotos em 13/11 (post 17937089589144417)."
-    },
-    {
-      "data": "2026-11-13",
-      "assunto": "Resumo da semana: ata Copom (Selic 13,75%), IPCA out 0,14%/4,63% 12m, Embraer guidance, Petrobras proventos, BBAS3 guidance",
-      "modelo": "modelo2",
-      "rotina": "m2-sex",
-      "post_id": "17937089589144417",
-      "fontes": [
-        "BCB, Ata Copom 282, 3-4/11/2026",
-        "BCB SGS series 433/13522 (IPCA IBGE out/2026)",
-        "Fatos Relevantes CVM: Embraer 10/11, Petrobras 10/11, BB 11/11"
-      ],
-      "produto": "guia",
-      "status": "publicado",
-      "observacao": "Refacao do post 18136813831794844 com 7 fotos ineditas do Pexels (rs13-1 a rs13-7); mesmos textos e legenda.",
-      "arte": "saida/2026-11-13-resumo-da-semana-v2"
-    }
-  ],
-  "proximo_modelo": "escuro"
+ "regra": "Alternar Modelo 1: claro -> escuro -> claro... Considerar sempre a ULTIMA publicacao efetivamente realizada (inclui extraordinarias). Atualizar este arquivo a cada publicacao.",
+ "publicacoes": [
+  {
+   "data": "2026-10-24",
+   "assunto": "BB Seguridade - renuncia de conselheira (Fato Relevante 23/10/2026)",
+   "modelo": "claro",
+   "post_id": "18097747826442312"
+  },
+  {
+   "data": "2026-10-24",
+   "assunto": "Bradesco - resultado 3T26",
+   "modelo": "escuro",
+   "post_id": "18138353518651602"
+  },
+  {
+   "data": "2026-10-24",
+   "assunto": "Embraer - carteira de pedidos e entregas 3T26 (US$ 35,7 bi)",
+   "modelo": "claro",
+   "post_id": "18393764485161356",
+   "fontes": [
+    "Embraer, Carteira de Pedidos & Entregas 3T26, 23/10/2026 (CVM)"
+   ],
+   "status": "publicado"
+  },
+  {
+   "data": "2026-10-24",
+   "assunto": "Inflacao e eleicao: Focus, Selic e IPCA (CNN Brasil, 19/10/2026)",
+   "modelo": "modelo2",
+   "post_id": "18057881201570088",
+   "fontes": [
+    "CNN Brasil, 19/10/2026 (secundaria)"
+   ],
+   "status": "publicado",
+   "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
+  },
+  {
+   "data": "2026-10-26",
+   "assunto": "Ibovespa despenca e B3 aciona circuit breaker apos o 2o turno (dados parciais ate ~12h)",
+   "modelo": "modelo2",
+   "post_id": "18343195579287400",
+   "fontes": [
+    "CNN Brasil/Reuters, 26/10/2026",
+    "InfoMoney, 26/10/2026"
+   ],
+   "status": "publicado",
+   "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
+  },
+  {
+   "data": "2026-10-26",
+   "assunto": "Tesouro recompra ate 15 milhoes de titulos prefixados (NTN-F 2031/2033/2037; teto R$ 15 bi de face)",
+   "modelo": "modelo2",
+   "post_id": "17916410352541526",
+   "fontes": [
+    "InfoMoney, 26/10/2026",
+    "ISTOE Dinheiro, 26/10/2026"
+   ],
+   "status": "publicado",
+   "observacao": "Post manual do dono (imagem unica); nao entra na alternancia do Modelo 1. Resultado do leilao nao confirmado na epoca."
+  },
+  {
+   "data": "2026-10-26",
+   "assunto": "Educativo: oportunidades em dias de queda forte na Bolsa (preco x valor, margem de seguranca)",
+   "modelo": "escuro",
+   "post_id": "18116903048108876",
+   "fontes": [
+    "InfoMoney, 26/10/2026 (apenas legenda)"
+   ],
+   "produto": "guia",
+   "status": "publicado",
+   "observacao": "Post manual do dono, Modelo 1 (conta na alternancia). Slide final unico com Guia de Indicadores."
+  },
+  {
+   "data": "2026-10-27",
+   "assunto": "Gerdau (GGBR4) - resultado 3T26 (EBITDA ajustado R$ 3,8 bi, dividendos R$ 0,34/acao)",
+   "modelo": "claro",
+   "post_id": "17943341757365534",
+   "fontes": [
+    "Gerdau, Divulgacao de Resultados 3T26, 27/10/2026 (CVM, protocolo 1580462)"
+   ],
+   "produto": "guia",
+   "status": "publicado"
+  },
+  {
+   "data": "2026-10-28",
+   "assunto": "Itau (ITUB4) compra 100% da NeoSpace (IA) por R$ 2,925 bi, pagamento diferido em 5 anos",
+   "modelo": "escuro",
+   "post_id": "17920715757246096",
+   "fontes": [
+    "Itau Unibanco, Fato Relevante, 26/10/2026 (CVM, protocolo 1580024)"
+   ],
+   "produto": "carteira",
+   "status": "publicado"
+  },
+  {
+   "data": "2026-10-28",
+   "assunto": "TCU calcula aliquota de referencia de 11,3% para a CBS (reforma tributaria)",
+   "modelo": "modelo2",
+   "post_id": "18132708463831383",
+   "fontes": [
+    "TCU, portal.tcu.gov.br, 28/10/2026",
+    "Reuters via Forbes Brasil, 28/10/2026 (secundaria, so legenda)"
+   ],
+   "produto": "ebook",
+   "status": "publicado",
+   "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
+  },
+  {
+   "data": "2026-10-28",
+   "assunto": "BBAS3 (Banco do Brasil): queda de 29,33% em 26/10 e fechamento de 27/10 (R$ 17,38); cautela do mercado",
+   "modelo": "claro",
+   "post_id": "18092913266658144",
+   "fontes": [
+    "Cobertura de mercado 26-27/10/2026 (secundaria, so legenda)"
+   ],
+   "produto": "carteira",
+   "status": "publicado",
+   "observacao": "Post manual do dono, Modelo 1 (conta na alternancia). Numeros nao conferidos em RI/B3."
+  },
+  {
+   "data": "2026-10-28",
+   "assunto": "Fed mantem juros em 3,75%-4% (10x2; Cook e Hammack por alta de 0,25 p.p.)",
+   "modelo": "modelo2",
+   "post_id": "17966072391212500",
+   "fontes": [
+    "FOMC statement, federalreserve.gov, 28/10/2026",
+    "Cobertura de mercado (secundaria, so legenda)"
+   ],
+   "produto": "ebook",
+   "status": "publicado",
+   "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1."
+  },
+  {
+   "data": "2026-10-29",
+   "assunto": "Petrobras (PETR4) - recorde de producao 3T26 (3,512 MMboed, +11,7% a/a, +5,3% t/t)",
+   "modelo": "escuro",
+   "post_id": "18118813081972114",
+   "fontes": [
+    "Petrobras, Relatorio de Producao e Vendas 3T26, 28/10/2026 (CVM, protocolo 1581329)"
+   ],
+   "produto": "guia",
+   "status": "publicado"
+  },
+  {
+   "data": "2026-10-30",
+   "assunto": "Reel meme: 'Quando perguntam quanto eu tenho investido. Eu:' (clipe de terceiros usado com autorizacao declarada pelo dono)",
+   "modelo": "reel-meme",
+   "post_id": "18112000559184068",
+   "produto": "ebook",
+   "status": "publicado",
+   "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Sem credito por decisao do dono."
+  },
+  {
+   "data": "2026-10-30",
+   "assunto": "Reel meme: 'Como eu reagia perdendo R$100 quando era iniciante / Eu perdendo R$2.000 agora' (clipe fornecido pelo dono)",
+   "modelo": "reel-meme",
+   "post_id": "18111780650186638",
+   "produto": "ebook",
+   "status": "publicado",
+   "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Sem credito por decisao do dono."
+  },
+  {
+   "data": "2026-10-31",
+   "assunto": "Reel meme: 'Meu salario tentando pagar minhas contas' (clipe fornecido pelo dono)",
+   "modelo": "reel-meme",
+   "post_id": "18056646035588837",
+   "produto": "ebook",
+   "status": "publicado",
+   "observacao": "Post manual do dono; publicado so na aba Reels; nao entra na alternancia do Modelo 1."
+  },
+  {
+   "data": "2026-10-31",
+   "assunto": "Vale (VALE3) 3T26: EBITDA do cobre +66% (US$ 1 bi) e lucro liquido -53% (US$ 1,255 bi)",
+   "modelo": "claro",
+   "post_id": "18130511816484247",
+   "fontes": [
+    "Vale, vale.com, 29-30/10/2026 (cobre)",
+    "Cobertura de mercado (lucro, minerio de ferro; nao conferido no Relatorio de Desempenho)"
+   ],
+   "produto": "guia",
+   "logo": "VALE3",
+   "status": "publicado",
+   "observacao": "Post manual do dono, Modelo 1 (conta na alternancia), primeiro com logo da empresa no slide 1."
+  },
+  {
+   "data": "2026-11-03",
+   "assunto": "Proposta de Lara Resende para reduzir a Selic de 13,75% a 7,5% (defendida por Gabrielli; Durigan e Mercadante afastam adocao imediata)",
+   "modelo": "modelo2",
+   "post_id": "18387122533231476",
+   "fontes": [
+    "Cobertura de politica e economia, 1-3/11/2026 (secundaria, so legenda)"
+   ],
+   "produto": "none",
+   "status": "publicado",
+   "observacao": "Post manual do dono; tema politico, tom neutro; nao entra na alternancia do Modelo 1. Fotos ineditas (juros1-6)."
+  },
+  {
+   "data": "2026-11-03",
+   "assunto": "Mercado Bitcoin: incidente de seguranca (2/11) e ataque a Binance (US$ 6,3 bi)",
+   "modelo": "modelo2",
+   "post_id": "17919565539531221",
+   "fontes": [
+    "Comunicados das empresas e cobertura de mercado, 30/10 a 2/11/2026 (secundarias, so legenda)"
+   ],
+   "produto": "none",
+   "status": "publicado",
+   "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Fotos ineditas (cripto1-6). Retomada das operacoes do MB nao confirmada na epoca."
+  },
+  {
+   "data": "2026-11-03",
+   "assunto": "Itau (ITUB4) 3T26: lucro recorrente gerencial R$ 12,6 bi (+1,7% t/t, +6,2% a/a), ROE 23,6%, em linha com consenso",
+   "modelo": "escuro",
+   "post_id": "18130810966889914",
+   "fontes": [
+    "Itau Unibanco, Press Release e Apresentacao Institucional 3T26, CVM protocolos 1583273 e 1583279, 3/11/2026"
+   ],
+   "produto": "guia",
+   "status": "publicado",
+   "observacao": "Sem logo (assets/logos/ITUB4.png inexistente). Doc 'Projecoes 2026' nao baixou; so o release foi usado."
+  },
+  {
+   "data": "2026-11-04",
+   "assunto": "YDUQS (YDUQ3) x Afya: protocolo de incorporacao aprovado (69,0%/31,0%; troca 6,408347; sinergias VPL R$ 2-2,2 bi)",
+   "modelo": "claro",
+   "post_id": "18100050185397302",
+   "fontes": [
+    "YDUQS, Fato Relevante, CVM protocolo 1583559, 03/11/2026"
+   ],
+   "produto": "guia",
+   "status": "publicado",
+   "observacao": "Sem logo (assets/logos/YDUQ3.png inexistente)."
+  },
+  {
+   "data": "2026-11-04",
+   "assunto": "Copom mantem Selic em 13,75% (282a reuniao, unanime; interrompe 5 cortes)",
+   "modelo": "modelo2",
+   "post_id": "18468149488184950",
+   "fontes": [
+    "Banco Central, comunicado da 282a reuniao do Copom, 04/11/2026",
+    "InfoMoney, 04/11/2026 (secundaria, so legenda)"
+   ],
+   "produto": "ebook",
+   "status": "publicado",
+   "observacao": "Post manual do dono; nao entra na alternancia do Modelo 1. Fotos ineditas (copom1b, copom2-6)."
+  },
+  {
+   "data": "2026-11-05",
+   "assunto": "BB Seguridade (BBSE3): guidance 2026 revisado - premios emitidos Brasilseg de -3% a +2% para -15% a -11%; demais indicadores mantidos",
+   "modelo": "escuro",
+   "post_id": "18436276009147285",
+   "fontes": [
+    "BB Seguridade, Fato Relevante, CVM protocolo 1583332, 03/11/2026"
+   ],
+   "produto": "guia",
+   "status": "publicado",
+   "observacao": "Sem logo (assets/logos/BBSE3.png inexistente)."
+  },
+  {
+   "data": "2026-11-06",
+   "assunto": "Educativo: como usar indicadores (RSI, media movel, fundamentalistas, Fear & Greed) em acoes, fundos e criptos",
+   "modelo": "modelo2",
+   "post_id": "18133408813738832",
+   "fontes": [
+    "Conteudo educacional proprio"
+   ],
+   "produto": "guia",
+   "status": "publicado",
+   "observacao": "Post manual do dono (Modelo 2, 7 slides + final); nao entra na alternancia do Modelo 1. Fotos ineditas (ind1-7)."
+  },
+  {
+   "data": "2026-11-07",
+   "assunto": "Educativo: dividend yield (definição, exemplo, armadilha do yield alto e o que olhar além)",
+   "modelo": "modelo2",
+   "rotina": "m2-sab",
+   "post_id": "18055632443804790",
+   "fontes": [
+    "Conteúdo educativo original (definições gerais)"
+   ],
+   "produto": "guia",
+   "status": "publicado"
+  },
+  {
+   "data": "2026-11-08",
+   "assunto": "Planeje a semana: checklist de 5 perguntas antes de investir (objetivo, reserva, entendimento, risco, emoção)",
+   "modelo": "modelo2",
+   "rotina": "m2-dom",
+   "post_id": "18183733114428364",
+   "fontes": [
+    "Conteúdo educativo original"
+   ],
+   "produto": "ebook",
+   "status": "publicado"
+  },
+  {
+   "data": "2026-11-09",
+   "assunto": "Educativo: juros compostos (juros sobre juros, exemplo R$ 1.000 a 10%, tempo, dívidas)",
+   "modelo": "modelo2",
+   "rotina": "m2-seg",
+   "post_id": "17903763621531913",
+   "fontes": [
+    "Conteúdo educativo original (definições gerais)"
+   ],
+   "produto": "ebook",
+   "status": "publicado",
+   "observacao": "Agenda da semana trocada por educativo: datas (IPCA 12/11, balanços) só em fontes secundárias, sem confirmação primária (IBGE/BCB/RI bloquearam acesso)."
+  },
+  {
+   "data": "2026-11-10",
+   "assunto": "Embraer (EMBJ3): guidance 2026 revisado - receita US$ 8,4-8,6 bi (antes 8,2-8,5), FCL US$ 700 mi ou mais (antes 400 ou mais); entregas e margem EBIT mantidas",
+   "modelo": "claro",
+   "post_id": "18157693768587233",
+   "fontes": [
+    "Embraer, Fato Relevante, CVM protocolo 1586711, 10/11/2026"
+   ],
+   "produto": "guia",
+   "status": "publicado",
+   "observacao": "Sem logo (assets/logos/EMBJ3.png inexistente)."
+  },
+  {
+   "data": "2026-11-11",
+   "assunto": "Petrobras (PETR4): proventos de R$ 15,3 bi (R$ 1,18732774/acao, data base 21/12) e projecoes 2026 elevadas (producao 3,3-3,4 mi boed; Capex US$ 24-25,5 bi; caixa operacional US$ 45-50 bi)",
+   "modelo": "escuro",
+   "post_id": "17904781458370549",
+   "fontes": [
+    "Petrobras, Fato Relevante remuneracao, CVM protocolo 1587545, 10/11/2026",
+    "Petrobras, Fato Relevante projecoes 2026, CVM protocolo 1587552, 10/11/2026"
+   ],
+   "produto": "guia",
+   "status": "publicado",
+   "observacao": "Sem logo (assets/logos/PETR4.png inexistente)."
+  },
+  {
+   "data": "2026-11-12",
+   "assunto": "Banco do Brasil (BBAS3): projecao 2026 de lucro ajustado cortada de R$ 18-22 bi para R$ 9-11 bi; custo do credito R$ 80-83 bi; payout 2026 de 30% para 25% e 2027 em 25%",
+   "modelo": "claro",
+   "post_id": "18352087039280809",
+   "fontes": [
+    "Banco do Brasil, Fato Relevante projecoes, CVM protocolo 1587982, 11/11/2026",
+    "Banco do Brasil, Fato Relevante remuneracao, CVM protocolo 1587981, 11/11/2026"
+   ],
+   "produto": "guia",
+   "status": "publicado",
+   "observacao": "Sem logo (assets/logos/BBAS3.png inexistente)."
+  },
+  {
+   "data": "2026-11-13",
+   "assunto": "Resumo da semana: ata Copom (Selic 13,75%), IPCA out 0,14%/4,63% 12m, Embraer guidance, Petrobras proventos, BBAS3 guidance",
+   "modelo": "modelo2",
+   "rotina": "m2-sex",
+   "post_id": "18136813831794844",
+   "fontes": [
+    "BCB, Ata Copom 282, 3-4/11/2026",
+    "BCB SGS series 433/13522 (IPCA IBGE out/2026)",
+    "Fatos Relevantes CVM: Embraer 10/11, Petrobras 10/11, BB 11/11"
+   ],
+   "produto": "guia",
+   "status": "substituido",
+   "observacao": "Sem fotos (fundo abstrato). Publicado sem fotos (fundo abstrato); apagado pelo dono e refeito com fotos em 13/11 (post 17937089589144417)."
+  },
+  {
+   "data": "2026-11-13",
+   "assunto": "Resumo da semana: ata Copom (Selic 13,75%), IPCA out 0,14%/4,63% 12m, Embraer guidance, Petrobras proventos, BBAS3 guidance",
+   "modelo": "modelo2",
+   "rotina": "m2-sex",
+   "post_id": "17937089589144417",
+   "fontes": [
+    "BCB, Ata Copom 282, 3-4/11/2026",
+    "BCB SGS series 433/13522 (IPCA IBGE out/2026)",
+    "Fatos Relevantes CVM: Embraer 10/11, Petrobras 10/11, BB 11/11"
+   ],
+   "produto": "guia",
+   "status": "publicado",
+   "observacao": "Refacao do post 18136813831794844 com 7 fotos ineditas do Pexels (rs13-1 a rs13-7); mesmos textos e legenda.",
+   "arte": "saida/2026-11-13-resumo-da-semana-v2"
+  },
+  {
+   "data": "2026-11-14",
+   "assunto": "Educativo: reserva de emergência (o que é, para que serve, onde ficar, quanto guardar, erro comum, como começar)",
+   "modelo": "modelo2",
+   "rotina": "m2-sab",
+   "post_id": "18122864903094103",
+   "fontes": [
+    "Conteúdo educativo original (definições gerais)"
+   ],
+   "produto": "ebook",
+   "status": "publicado"
+  }
+ ],
+ "proximo_modelo": "escuro"
 }
