@@ -384,6 +384,18 @@
    ],
    "produto": "ebook",
    "status": "publicado"
+  },
+  {
+   "data": "2026-11-15",
+   "assunto": "Planeje a semana: 5 erros de comportamento do investidor (seguir multidão, pânico, pressa, sem objetivo, copiar dica)",
+   "modelo": "modelo2",
+   "rotina": "m2-dom",
+   "post_id": "18121263269097283",
+   "fontes": [
+    "Conteúdo educativo original (conceitos gerais)"
+   ],
+   "produto": "ebook",
+   "status": "publicado"
   }
  ],
  "proximo_modelo": "escuro"
