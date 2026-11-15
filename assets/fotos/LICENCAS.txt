@@ -86,3 +86,10 @@ re4.jpg  https://www.pexels.com/photo/close-up-person-putting-a-coin-into-a-pigg
 re5.jpg  https://www.pexels.com/photo/person-under-umbrella-in-heavy-rain-17074948/
 re6.jpg  https://www.pexels.com/photo/a-black-piggy-bank-in-the-middle-of-coins-3943727/
 re7.jpg  https://www.pexels.com/photo/calculator-and-notepad-placed-over-stack-of-paper-bills-4386373/
+cb1.jpg  https://www.pexels.com/photo/white-and-yellow-roller-coaster-749064/
+cb2.jpg  https://www.pexels.com/photo/people-walking-in-a-city-7678605/
+cb3.jpg  https://www.pexels.com/photo/stormy-sea-in-evening-time-3934621/
+cb4.jpg  https://www.pexels.com/photo/hourglass-8573370/
+cb5.jpg  https://www.pexels.com/photo/map-and-a-compass-7235893/
+cb6.jpg  https://www.pexels.com/photo/close-up-of-a-hand-writing-on-a-to-do-list-33266833/
+cb7.jpg  https://www.pexels.com/photo/notebook-and-pen-on-the-work-desk-8586182/
