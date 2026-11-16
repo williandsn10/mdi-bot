@@ -93,3 +93,10 @@ cb4.jpg  https://www.pexels.com/photo/hourglass-8573370/
 cb5.jpg  https://www.pexels.com/photo/map-and-a-compass-7235893/
 cb6.jpg  https://www.pexels.com/photo/close-up-of-a-hand-writing-on-a-to-do-list-33266833/
 cb7.jpg  https://www.pexels.com/photo/notebook-and-pen-on-the-work-desk-8586182/
+ct1.jpg  https://www.pexels.com/photo/person-putting-coin-in-a-piggy-bank-3833052/
+ct2.jpg  https://www.pexels.com/photo/modern-architecture-of-national-congress-brasilia-30179014/
+ct3.jpg  https://www.pexels.com/photo/door-to-the-vault-in-the-centro-cultural-banco-do-brasil-sao-paulo-12651886/
+ct4.jpg  https://www.pexels.com/photo/padlock-hanging-on-mesh-fence-15049670/
+ct5.jpg  https://www.pexels.com/photo/close-up-of-a-piggy-bank-12956000/
+ct6.jpg  https://www.pexels.com/photo/brazilian-real-banknotes-in-closeup-7542641/
+ct7.jpg  https://www.pexels.com/photo/person-putting-coin-in-a-piggy-bank-1602726/
