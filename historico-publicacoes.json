@@ -409,7 +409,19 @@
       "produto": "ebook",
       "status": "publicado",
       "observacao": "Agenda da semana trocada por educativo: IBGE bloqueado (403) e BCB sem página de calendário acessível; datas sem confirmação primária. Fotos inéditas ct1-ct7."
+    },
+    {
+      "data": "2026-11-17",
+      "assunto": "Minerva (BEEF3): cancelamento de 45.388.001 ações em tesouraria e novo programa de recompra de até 40.862.556 ações (12 meses)",
+      "modelo": "escuro",
+      "post_id": "17928315306203789",
+      "fontes": [
+        "Minerva, Fato Relevante, CVM protocolo 1589734, 16/11/2026"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/BEEF3.png inexistente)."
     }
   ],
-  "proximo_modelo": "escuro"
+  "proximo_modelo": "claro"
 }
