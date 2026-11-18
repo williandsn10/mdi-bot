@@ -1,9 +1,6 @@
-{"out": "saida/2026-11-16-cdb-x-tesouro", "tag": "Educação", "fonte": "", "slides": [
-{"size": 60, "image": "assets/fotos/ct1.jpg", "text": "**CDB ou Tesouro Direto?** Entenda as diferenças em 5 pontos"},
-{"size": 52, "image": "assets/fotos/ct3.jpg", "text": "**1. Quem emite?** O **CDB** é emitido por um **banco**. O **Tesouro Direto** é emitido pelo **governo federal**."},
-{"size": 50, "image": "assets/fotos/ct4.jpg", "text": "**2. Proteção.** O CDB tem cobertura do **FGC** até **R$ 250 mil** por CPF, por instituição. Os títulos do Tesouro são do **governo federal** e não usam o FGC."},
-{"size": 50, "image": "assets/fotos/ct6.jpg", "text": "**3. Como rende.** Os dois podem ser **pós-fixados**, **prefixados** ou ligados à **inflação**. Leia as **condições** de cada título."},
-{"size": 50, "image": "assets/fotos/ct2.jpg", "text": "**4. Custos.** Os dois têm **IR regressivo**: quanto maior o prazo, menor a alíquota. O Tesouro ainda tem **taxa de custódia** da B3."},
-{"size": 50, "image": "assets/fotos/ct5.jpg", "text": "**5. Liquidez.** Alguns CDBs só podem ser resgatados no **vencimento**. Confira **antes** de investir."},
-{"size": 48, "image": "assets/fotos/ct7.jpg", "text": "**Para levar:** compare **emissor**, **prazo**, **taxa**, **liquidez** e **custos**. Não existe o melhor para todos.\n\n**Qual você usa hoje?** Comente."},
-{"final": "ebook"}]}
+{"theme":"claro","out":"saida/2026-11-18-rededor-sami","slides":[
+{"text":["**Rede D'Or (RDOR3)** vai vender a gestora **SAMI** para a **BlackRock**."],"size":72,"arrow":true},
+{"text":["**FATO:** em fato relevante de **18/11/2026**, a Rede D'Or informou a assinatura de documentos definitivos para vender 100% da **SAMI** (Sul América Investimentos).","","Valor de firma: cerca de **R$ 850 milhões**.","","**R$ 700 milhões** à vista no fechamento + **R$ 150 milhões** em 2 parcelas variáveis, no 3º e 5º aniversários."],"size":46,"arrow":true},
+{"text":["**FATO:** parte do preço depende de metas do contrato e está sujeita a variação cambial. O fechamento depende de aprovação do **Banco Central** e do **CADE**.","","**ANÁLISE:** do total, **R$ 150 milhões** não são garantidos.","","Ainda não existem informações suficientes para determinar o impacto nos resultados da companhia."],"size":46,"arrow":true},
+{"text":["**Isso muda a tese de investimento?**","","O documento informa o preço e as condições, mas não detalha efeitos nos resultados da Rede D'Or.","","O fechamento ainda depende de aprovações.","","Salve para acompanhar."],"size":50},
+{"final":"none"}]}
