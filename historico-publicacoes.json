@@ -421,7 +421,19 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Sem logo (assets/logos/BEEF3.png inexistente)."
+    },
+    {
+      "data": "2026-11-18",
+      "assunto": "Rede D'Or (RDOR3): venda da SAMI (Sul América Investimentos) para a BlackRock; valor de firma ~R$ 850 mi (R$ 700 mi à vista + R$ 150 mi contingentes); depende de BACEN e CADE",
+      "modelo": "claro",
+      "post_id": "18099792677659954",
+      "fontes": [
+        "Rede D'Or, Fato Relevante, CVM protocolo 1590908, 18/11/2026"
+      ],
+      "produto": "none",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/RDOR3.png inexistente)."
     }
   ],
-  "proximo_modelo": "claro"
+  "proximo_modelo": "escuro"
 }
