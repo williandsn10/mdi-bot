@@ -433,7 +433,19 @@
       "produto": "none",
       "status": "publicado",
       "observacao": "Sem logo (assets/logos/RDOR3.png inexistente)."
+    },
+    {
+      "data": "2026-11-19",
+      "assunto": "Copel (CPLE3): JCP bruto total de R$ 871 mi aprovado em 18/11/2026 (R$ 500 mi a R$ 0,16834337873/ação ON pagos em 23/12/2026; R$ 371 mi a R$ 0,12491078702/ação ON, data na AGO abr/2027); data com 30/11, ex 01/12; IRRF 17,5%",
+      "modelo": "escuro",
+      "post_id": "18105668402544927",
+      "fontes": [
+        "Copel, Aviso aos Acionistas 05/26 (Distribuição de JCP), CVM protocolo 1591308, 19/11/2026"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/CPLE3.png inexistente). FR de CAPEX da Copel (1591309) não baixou da CVM (conexão resetada); não usado."
     }
   ],
-  "proximo_modelo": "escuro"
+  "proximo_modelo": "claro"
 }
