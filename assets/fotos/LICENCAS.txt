@@ -100,3 +100,10 @@ ct4.jpg  https://www.pexels.com/photo/padlock-hanging-on-mesh-fence-15049670/
 ct5.jpg  https://www.pexels.com/photo/close-up-of-a-piggy-bank-12956000/
 ct6.jpg  https://www.pexels.com/photo/brazilian-real-banknotes-in-closeup-7542641/
 ct7.jpg  https://www.pexels.com/photo/person-putting-coin-in-a-piggy-bank-1602726/
+rs20-1.jpg  https://www.pexels.com/photo/skyscrapers-7245368/
+rs20-2.jpg  https://www.pexels.com/photo/cows-on-a-pasture-18624617/
+rs20-3.jpg  https://www.pexels.com/photo/modern-hospital-corridor-with-empty-chairs-33812023/
+rs20-4.jpg  https://www.pexels.com/photo/stock-exchange-board-210607/
+rs20-5.jpg  https://www.pexels.com/photo/close-up-shot-of-dollar-bills-7111609/
+rs20-6.jpg  https://www.pexels.com/photo/a-person-holding-black-desk-calculator-5466810/
+rs20-7.jpg  https://www.pexels.com/photo/banknotes-and-calculator-on-table-6694543/
