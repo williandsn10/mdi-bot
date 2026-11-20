@@ -445,6 +445,21 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Sem logo (assets/logos/CPLE3.png inexistente). FR de CAPEX da Copel (1591309) não baixou da CVM (conexão resetada); não usado."
+    },
+    {
+      "data": "2026-11-20",
+      "assunto": "Resumo da semana: Minerva recompra, Rede D'Or/SAMI, Copel JCP, Focus (IPCA 2026 5,11%, Selic 13,75%), dólar PTAX 5,6518→5,8889",
+      "modelo": "modelo2",
+      "rotina": "m2-sex",
+      "post_id": "18477296974186596",
+      "fontes": [
+        "Fatos Relevantes/Avisos CVM: Minerva 16/11, Rede D'Or 18/11, Copel 19/11",
+        "BCB Expectativas de Mercado (13/11)",
+        "BCB SGS série 1 (dólar venda)"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "arte": "saida/2026-11-20-resumo-da-semana"
     }
   ],
   "proximo_modelo": "claro"
