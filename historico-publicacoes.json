@@ -460,6 +460,18 @@
       "produto": "guia",
       "status": "publicado",
       "arte": "saida/2026-11-20-resumo-da-semana"
+    },
+    {
+      "data": "2026-11-21",
+      "assunto": "Educativo: diversificação (o que é, por que existe, erro de concentrar no mesmo setor, formas, limites)",
+      "modelo": "modelo2",
+      "rotina": "m2-sab",
+      "post_id": "18088696799707662",
+      "fontes": [
+        "Conteúdo educativo original (definições gerais)"
+      ],
+      "produto": "carteira",
+      "status": "publicado"
     }
   ],
   "proximo_modelo": "claro"
