@@ -472,6 +472,18 @@
       ],
       "produto": "carteira",
       "status": "publicado"
+    },
+    {
+      "data": "2026-11-22",
+      "assunto": "Planeje a semana: orçamento em 5 passos (entradas/saídas, essenciais x opcionais, guardar no início, margem, revisão semanal)",
+      "modelo": "modelo2",
+      "rotina": "m2-dom",
+      "post_id": "18019457897975389",
+      "fontes": [
+        "Conteúdo educativo original"
+      ],
+      "produto": "ebook",
+      "status": "publicado"
     }
   ],
   "proximo_modelo": "claro"
