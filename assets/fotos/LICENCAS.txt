@@ -115,3 +115,10 @@ dv4.jpg  https://www.pexels.com/photo/a-person-holding-a-compass-7009855/
 dv5.jpg  https://www.pexels.com/photo/wicker-baskets-of-exotic-fruits-21998617/
 dv6.jpg  https://www.pexels.com/photo/brown-eggs-on-woven-basket-8129730/
 dv7.jpg  https://www.pexels.com/photo/colorful-puzzle-pieces-in-white-background-9227506/
+or1.jpg  https://www.pexels.com/photo/crop-unrecognizable-financial-worker-calculating-profit-using-notebook-and-calculator-4386335/
+or2.jpg  https://www.pexels.com/photo/a-person-writing-on-white-notebook-5466812/
+or3.jpg  https://www.pexels.com/photo/person-calculating-on-a-notebook-6962993/
+or4.jpg  https://www.pexels.com/photo/flatlay-photo-of-weekly-planner-6690924/
+or5.jpg  https://www.pexels.com/photo/a-person-writing-on-a-desk-calendar-5408684/
+or6.jpg  https://www.pexels.com/photo/person-putting-coin-in-a-piggy-bank-3848193/
+or7.jpg  https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-jar-with-coins-9755383/
