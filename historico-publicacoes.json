@@ -498,6 +498,19 @@
       ],
       "produto": "ebook",
       "status": "publicado"
+    },
+    {
+      "data": "2026-11-23",
+      "assunto": "Educativo: indicador de estrutura (LH/LL) no grafico do BTC/USDT e vantagem do Guia de Indicadores",
+      "modelo": "modelo2",
+      "post_id": "18110756480361679",
+      "fontes": [
+        "Grafico de BTC/USDT fornecido pelo dono (print)",
+        "Conteudo educativo proprio"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Post manual do dono (Modelo 2, 8 slides + final); nao entra na alternancia do Modelo 1. Valores lidos do eixo (aproximados), exceto 61.286,10."
     }
   ],
   "proximo_modelo": "claro"
