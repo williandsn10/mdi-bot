@@ -180,3 +180,7 @@ Em qualquer dia, se houver FATO realmente relevante e atual (fato relevante, res
 
 ## STORY AUTOMÁTICO DO POST — DESATIVADO (2026-11-07)
 O dono pediu para retirar. NÃO gerar nem publicar Stories nas rotinas. Os scripts `story_post.py` e `--story` ficam disponíveis apenas se o dono pedir expressamente.
+
+
+## REGRA: TODO SLIDE DO MODELO 2 COM FOTO (definida pelo usuário em 2026-11-23)
+Nenhum slide de conteúdo do Modelo 2 pode ficar sem imagem (o fundo abstrato NÃO é mais aceitável). Cada slide leva uma foto inédita e temática (campo "image"). Se não conseguir baixar fotos suficientes do Pexels, NÃO publique: registre `"status": "pulado"` com o motivo. Vale para as rotinas automáticas.
