@@ -484,6 +484,20 @@
       ],
       "produto": "ebook",
       "status": "publicado"
+    },
+    {
+      "data": "2026-11-23",
+      "assunto": "A semana no mercado: IPCA-15 nov e IPP out (26/11), PNAD Contínua (27/11), data com JCP Copel (30/11)",
+      "modelo": "modelo2",
+      "rotina": "m2-seg",
+      "post_id": "18111535850576435",
+      "fontes": [
+        "IBGE calendário de divulgações",
+        "IBGE SIDRA IPCA-15/PNAD",
+        "Fato relevante Copel 18/11/2026"
+      ],
+      "produto": "ebook",
+      "status": "publicado"
     }
   ],
   "proximo_modelo": "claro"

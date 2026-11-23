@@ -1,9 +1,40 @@
-{"out":"saida/2026-11-22-orcamento-semana","tag":"Educação","fonte":"","slides":[
-{"size":60,"image":"assets/fotos/or1.jpg","text":"Seu dinheiro da semana tem **plano**? Organize o orçamento em **5 passos**"},
-{"size":52,"image":"assets/fotos/or2.jpg","text":"**Passo 1:** anote o que **entra** e o que **sai**. Sem enxergar os números, fica difícil decidir."},
-{"size":52,"image":"assets/fotos/or3.jpg","text":"**Passo 2:** separe gastos **essenciais** (moradia, comida, contas) dos gastos **opcionais**."},
-{"size":52,"image":"assets/fotos/or4.jpg","text":"**Passo 3:** defina um valor para guardar ou investir **no início**, e não com o que sobrar no fim."},
-{"size":52,"image":"assets/fotos/or5.jpg","text":"**Passo 4:** deixe uma **margem** para imprevistos, para não precisar recorrer a dívidas caras."},
-{"size":52,"image":"assets/fotos/or6.jpg","text":"**Passo 5:** revise **uma vez por semana**. Ajustar cedo é mais simples do que corrigir no fim do mês."},
-{"size":52,"image":"assets/fotos/or7.jpg","text":"**O que levar daqui:** organizar o orçamento vem **antes** de investir. **Qual passo é o mais difícil para você?** Comente."},
-{"final":"ebook"}]}
+{
+ "out": "saida/2026-11-23-agenda-semana",
+ "tag": "Mercado",
+ "fonte": "",
+ "slides": [
+  {
+   "size": 60,
+   "image": "assets/fotos/ag6.jpg",
+   "text": "O que pode mexer com o **seu bolso** e com a **sua carteira** de 23 a 27 de novembro?"
+  },
+  {
+   "size": 52,
+   "image": "assets/fotos/ag2.jpg",
+   "text": "**QUINTA, 26/11, 9h:** IPCA-15 de novembro. Em outubro foi de **0,32%** no mês e **4,15%** no acumulado de 2026."
+  },
+  {
+   "size": 52,
+   "image": "assets/fotos/ag3.jpg",
+   "text": "**QUINTA, 26/11, 9h:** Índice de Preços ao Produtor da indústria, de **outubro**. Mede preços na saída da fábrica, antes do consumidor."
+  },
+  {
+   "size": 52,
+   "image": "assets/fotos/ag4.jpg",
+   "text": "**SEXTA, 27/11, 9h:** PNAD Contínua, trimestre até **outubro**. No trimestre até setembro, a desocupação foi de **5,2%**."
+  },
+  {
+   "size": 52,
+   "image": "assets/fotos/ag1.jpg",
+   "text": "**SEGUNDA, 30/11:** último dia para ter ações da **Copel (CPLE3)** e receber o JCP aprovado em 18/11. Ex-direitos em **01/12**."
+  },
+  {
+   "size": 52,
+   "image": "assets/fotos/ag5.jpg",
+   "text": "**O que levar daqui:** agenda não é previsão. Os números só valem quando saem.\n\nQual dado você mais acompanha?"
+  },
+  {
+   "final": "ebook"
+  }
+ ]
+}
