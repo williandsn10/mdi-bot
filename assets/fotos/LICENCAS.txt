@@ -55,21 +55,6 @@ ind4.jpg  https://www.pexels.com/photo/close-up-of-traffic-lights-15833752/
 ind5.jpg  https://www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-6693647/
 ind6.jpg  https://www.pexels.com/photo/a-close-up-shot-of-bitcoin-commemorative-coins-12920766/
 ind7.jpg  https://www.pexels.com/photo/statistics-on-a-desk-in-office-8124410/
-dy1.jpg  https://www.pexels.com/photo/plant-on-a-glass-bottle-with-coins-6774947/
-dy2.jpg  https://www.pexels.com/photo/close-up-shot-of-a-jar-with-coins-9755390/
-dy3.jpg  https://www.pexels.com/photo/a-person-holding-coins-with-a-small-plant-5550904/
-dy4.jpg  https://www.pexels.com/photo/coins-in-a-jar-6863252/
-dy5.jpg  https://www.pexels.com/photo/calculator-red-pen-and-coins-on-notepad-7111496/
-dy6.jpg  https://www.pexels.com/photo/black-calculator-beside-coins-and-notebook-5466785/
-Adicionadas em 08/11/2026 (Pexels License) - post "Planeje a semana" checklist (fotos ineditas):
-pl1.jpg  https://www.pexels.com/photo/a-black-and-white-calendar-with-a-pen-on-top-28353121/
-pl2.jpg  https://www.pexels.com/photo/hand-writing-on-notebook-with-checklist-35719571/
-pl3.jpg  https://www.pexels.com/photo/monthly-budget-planning-7054399/
-pl4.jpg  https://www.pexels.com/photo/crop-anonymous-financier-planning-budget-writing-numbers-in-notebook-4386339/
-pl5.jpg  https://www.pexels.com/photo/photo-of-planner-and-writing-materials-760720/
-(pl6 / 8586182 baixada e descartada, nao usada)
-jc3.jpg  https://www.pexels.com/photo/close-up-of-an-open-notebook-calculator-and-a-pen-8250947/
-jc4.jpg  https://www.pexels.com/photo/computer-laptop-beside-hour-glass-on-brown-wooden-surface-733758/
 Adicionadas em 13/11/2026 (Pexels License) - refacao do resumo da semana 13/11 (fotos ineditas):
 rs13-1.jpg  https://www.pexels.com/photo/countries-statistics-in-newspaper-4651145/
 rs13-2.jpg  https://www.pexels.com/photo/modern-conference-room-6949365/
@@ -78,53 +63,24 @@ rs13-4.jpg  https://www.pexels.com/photo/white-airplane-wing-during-sunset-14482
 rs13-5.jpg  https://www.pexels.com/photo/oil-platform-3192662/
 rs13-6.jpg  https://www.pexels.com/photo/columns-in-a-bank-museum-of-england-19582434/
 rs13-7.jpg  https://www.pexels.com/photo/cup-of-coffee-and-laptop-near-empty-notebook-on-table-6373304/
-Adicionadas em 14/11/2026 (Pexels License) - Aprenda no sabado: reserva de emergencia:
-re1.jpg  https://www.pexels.com/photo/coins-and-a-piggy-bank-4056856/
-re2.jpg  https://www.pexels.com/photo/close-up-of-a-wet-transparent-umbrella-19155017/
-re3.jpg  https://www.pexels.com/photo/clear-glass-jar-with-silver-coins-9821387/
-re4.jpg  https://www.pexels.com/photo/close-up-person-putting-a-coin-into-a-piggy-bank-12969339/
-re5.jpg  https://www.pexels.com/photo/person-under-umbrella-in-heavy-rain-17074948/
-re6.jpg  https://www.pexels.com/photo/a-black-piggy-bank-in-the-middle-of-coins-3943727/
-re7.jpg  https://www.pexels.com/photo/calculator-and-notepad-placed-over-stack-of-paper-bills-4386373/
-cb1.jpg  https://www.pexels.com/photo/white-and-yellow-roller-coaster-749064/
-cb2.jpg  https://www.pexels.com/photo/people-walking-in-a-city-7678605/
-cb3.jpg  https://www.pexels.com/photo/stormy-sea-in-evening-time-3934621/
-cb4.jpg  https://www.pexels.com/photo/hourglass-8573370/
-cb5.jpg  https://www.pexels.com/photo/map-and-a-compass-7235893/
-cb6.jpg  https://www.pexels.com/photo/close-up-of-a-hand-writing-on-a-to-do-list-33266833/
-cb7.jpg  https://www.pexels.com/photo/notebook-and-pen-on-the-work-desk-8586182/
-ct1.jpg  https://www.pexels.com/photo/person-putting-coin-in-a-piggy-bank-3833052/
-ct2.jpg  https://www.pexels.com/photo/modern-architecture-of-national-congress-brasilia-30179014/
-ct3.jpg  https://www.pexels.com/photo/door-to-the-vault-in-the-centro-cultural-banco-do-brasil-sao-paulo-12651886/
-ct4.jpg  https://www.pexels.com/photo/padlock-hanging-on-mesh-fence-15049670/
-ct5.jpg  https://www.pexels.com/photo/close-up-of-a-piggy-bank-12956000/
-ct6.jpg  https://www.pexels.com/photo/brazilian-real-banknotes-in-closeup-7542641/
-ct7.jpg  https://www.pexels.com/photo/person-putting-coin-in-a-piggy-bank-1602726/
-rs20-1.jpg  https://www.pexels.com/photo/skyscrapers-7245368/
-rs20-2.jpg  https://www.pexels.com/photo/cows-on-a-pasture-18624617/
-rs20-3.jpg  https://www.pexels.com/photo/modern-hospital-corridor-with-empty-chairs-33812023/
-rs20-4.jpg  https://www.pexels.com/photo/stock-exchange-board-210607/
-rs20-5.jpg  https://www.pexels.com/photo/close-up-shot-of-dollar-bills-7111609/
-rs20-6.jpg  https://www.pexels.com/photo/a-person-holding-black-desk-calculator-5466810/
-rs20-7.jpg  https://www.pexels.com/photo/banknotes-and-calculator-on-table-6694543/
-Adicionadas em 21/11/2026 (Pexels License) - Aprenda no sabado: diversificacao:
-dv1.jpg  https://www.pexels.com/photo/brown-eggs-on-black-steel-basket-3789535/
-dv2.jpg  https://www.pexels.com/photo/several-fruits-in-brown-wicker-basket-235294/
-dv3.jpg  https://www.pexels.com/photo/brown-puzzle-pieces-3852577/
-dv4.jpg  https://www.pexels.com/photo/a-person-holding-a-compass-7009855/
-dv5.jpg  https://www.pexels.com/photo/wicker-baskets-of-exotic-fruits-21998617/
-dv6.jpg  https://www.pexels.com/photo/brown-eggs-on-woven-basket-8129730/
-dv7.jpg  https://www.pexels.com/photo/colorful-puzzle-pieces-in-white-background-9227506/
-or1.jpg  https://www.pexels.com/photo/crop-unrecognizable-financial-worker-calculating-profit-using-notebook-and-calculator-4386335/
-or2.jpg  https://www.pexels.com/photo/a-person-writing-on-white-notebook-5466812/
-or3.jpg  https://www.pexels.com/photo/person-calculating-on-a-notebook-6962993/
-or4.jpg  https://www.pexels.com/photo/flatlay-photo-of-weekly-planner-6690924/
-or5.jpg  https://www.pexels.com/photo/a-person-writing-on-a-desk-calendar-5408684/
-or6.jpg  https://www.pexels.com/photo/person-putting-coin-in-a-piggy-bank-3848193/
-or7.jpg  https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-jar-with-coins-9755383/
-ag1.jpg  https://www.pexels.com/photo/a-calendar-in-the-middle-of-a-workspace-7845321/
-ag2.jpg  https://www.pexels.com/photo/shopping-cart-in-a-supermarket-5498233/
-ag3.jpg  https://www.pexels.com/photo/people-working-in-factory-18293962/
-ag4.jpg  https://www.pexels.com/photo/city-commute-commuters-commuting-513157/
-ag5.jpg  https://www.pexels.com/photo/monitor-with-data-on-stock-exchange-on-screen-5831251/
-ag6.jpg  https://www.pexels.com/photo/sunrise-reflecting-in-skyscrapers-8558941/
+Videos baixados do Pexels em 18/11/2026 (Pexels License, uso comercial gratuito) - campanha-indicadores-mdi:
+numeros.mp4          https://www.pexels.com/video/stock-market-exchanges-on-display-7579561/
+ticker.mp4           https://www.pexels.com/video/dynamic-financial-stock-market-display-animation-38431825/
+dedo-candles.mp4     https://www.pexels.com/video/person-looking-a-stock-market-8480284/
+apontando-tela.mp4   https://www.pexels.com/video/businessman-pointing-at-a-screen-8348727/
+cansado.mp4          https://www.pexels.com/video/tired-man-using-laptop-7578620/
+focado.mp4           https://www.pexels.com/video/man-working-using-laptop-7578614/
+caneta-circulos.mp4  https://www.pexels.com/video/dynamic-financial-trading-analysis-on-tablet-38993333/
+caneta-setas.mp4     https://www.pexels.com/video/businessman-analyzing-stock-market-trends-on-tablet-37615808/
+caneta-cripto.mp4    https://www.pexels.com/video/stylus-analyzing-cryptocurrency-charts-37676204/
+mesa-monitores.mp4   https://www.pexels.com/video/person-using-a-laptop-8480283/
+celular-btc.mp4      https://www.pexels.com/video/cryptocurrency-trading-on-smartphone-screen-34453413/
+pensando.mp4         https://www.pexels.com/video/man-looking-at-screen-7579576/
+tablet-analise.mp4   https://www.pexels.com/video/digital-trading-analysis-on-tablet-device-35417493/
+celular-candles.mp4  https://www.pexels.com/video/person-using-smartphone-while-looking-bitcoin-7579667/
+
+Adicionada em 23/11/2026 (Pexels License) - post indicadores BTC (foto inedita):
+btc-capa.jpg  https://www.pexels.com/photo/close-up-image-of-a-bitcoin-in-dark-setting-29110760/
+btc-s6.jpg  https://www.pexels.com/photo/close-up-of-a-graph-in-a-screen-5834234/
+btc-s7.jpg  https://www.pexels.com/photo/two-arrows-drawn-on-a-concrete-8629452/
+btc-s8.jpg  https://www.pexels.com/photo/magnifying-glass-on-top-of-document-6801648/
