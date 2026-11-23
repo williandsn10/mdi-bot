@@ -122,3 +122,9 @@ or4.jpg  https://www.pexels.com/photo/flatlay-photo-of-weekly-planner-6690924/
 or5.jpg  https://www.pexels.com/photo/a-person-writing-on-a-desk-calendar-5408684/
 or6.jpg  https://www.pexels.com/photo/person-putting-coin-in-a-piggy-bank-3848193/
 or7.jpg  https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-jar-with-coins-9755383/
+ag1.jpg  https://www.pexels.com/photo/a-calendar-in-the-middle-of-a-workspace-7845321/
+ag2.jpg  https://www.pexels.com/photo/shopping-cart-in-a-supermarket-5498233/
+ag3.jpg  https://www.pexels.com/photo/people-working-in-factory-18293962/
+ag4.jpg  https://www.pexels.com/photo/city-commute-commuters-commuting-513157/
+ag5.jpg  https://www.pexels.com/photo/monitor-with-data-on-stock-exchange-on-screen-5831251/
+ag6.jpg  https://www.pexels.com/photo/sunrise-reflecting-in-skyscrapers-8558941/
