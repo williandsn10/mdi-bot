@@ -511,7 +511,20 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Post manual do dono (Modelo 2, 8 slides + final); nao entra na alternancia do Modelo 1. Valores lidos do eixo (aproximados), exceto 61.286,10."
+    },
+    {
+      "data": "2026-11-24",
+      "assunto": "Petrobras (PETR4): dividendos extraordinários de R$ 15,60 bi (R$ 1,21035949/ação), data base 07/12, pagamento 23/12/2026; descontado da remuneração de 2026 na AGO 2027; PN 2027-31 estima dividendos ordinários US$ 55-60 bi",
+      "modelo": "claro",
+      "post_id": "18037696595884523",
+      "fontes": [
+        "Petrobras, Fato Relevante, CVM protocolo 1592677, 23/11/2026",
+        "Petrobras, Plano de Negócios 2027-2031, CVM protocolo 1592762, 23/11/2026"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/PETR4.png inexistente)."
     }
   ],
-  "proximo_modelo": "claro"
+  "proximo_modelo": "escuro"
 }
