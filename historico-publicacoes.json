@@ -524,7 +524,20 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Sem logo (assets/logos/PETR4.png inexistente)."
+    },
+    {
+      "data": "2026-11-25",
+      "assunto": "Raízen (RAIZ55): aumento de capital privado (R$ 0,25/ação ON; R$ 0,50/Unit; exercício até 07-08/12/2026; homologação 16/12) e pré-pagamento de R$ 3 bi da dívida reestruturada da Raízen Energia (venc. 2033)",
+      "modelo": "escuro",
+      "post_id": "17997000117064854",
+      "fontes": [
+        "Raízen, Comunicado ao Mercado, CVM protocolo 1593270, 25/11/2026",
+        "Raízen, Fato Relevante, CVM protocolo 1592763, 23/11/2026"
+      ],
+      "produto": "guia",
+      "status": "publicado",
+      "observacao": "Sem logo (assets/logos/RAIZ55.png inexistente)."
     }
   ],
-  "proximo_modelo": "escuro"
+  "proximo_modelo": "claro"
 }

@@ -1,40 +1,6 @@
-{
- "out": "saida/2026-11-23-agenda-semana",
- "tag": "Mercado",
- "fonte": "",
- "slides": [
-  {
-   "size": 60,
-   "image": "assets/fotos/ag6.jpg",
-   "text": "O que pode mexer com o **seu bolso** e com a **sua carteira** de 23 a 27 de novembro?"
-  },
-  {
-   "size": 52,
-   "image": "assets/fotos/ag2.jpg",
-   "text": "**QUINTA, 26/11, 9h:** IPCA-15 de novembro. Em outubro foi de **0,32%** no mês e **4,15%** no acumulado de 2026."
-  },
-  {
-   "size": 52,
-   "image": "assets/fotos/ag3.jpg",
-   "text": "**QUINTA, 26/11, 9h:** Índice de Preços ao Produtor da indústria, de **outubro**. Mede preços na saída da fábrica, antes do consumidor."
-  },
-  {
-   "size": 52,
-   "image": "assets/fotos/ag4.jpg",
-   "text": "**SEXTA, 27/11, 9h:** PNAD Contínua, trimestre até **outubro**. No trimestre até setembro, a desocupação foi de **5,2%**."
-  },
-  {
-   "size": 52,
-   "image": "assets/fotos/ag1.jpg",
-   "text": "**SEGUNDA, 30/11:** último dia para ter ações da **Copel (CPLE3)** e receber o JCP aprovado em 18/11. Ex-direitos em **01/12**."
-  },
-  {
-   "size": 52,
-   "image": "assets/fotos/ag5.jpg",
-   "text": "**O que levar daqui:** agenda não é previsão. Os números só valem quando saem.\n\nQual dado você mais acompanha?"
-  },
-  {
-   "final": "ebook"
-  }
- ]
-}
+{"theme":"escuro","out":"saida/2026-11-25-raizen-aumento-capital","slides":[
+{"text":["**Raízen** abre prazo para acionistas subscreverem aumento de capital e aprova pré-pagamento de **R$ 3 bilhões** de dívida.","","O que muda no balanço?"],"size":66,"arrow":true},
+{"text":["**FATO:** o aumento de capital é privado. Preço de emissão: **R$ 0,25** por ação ON e **R$ 0,50** por Unit.","","Prazo para exercer o direito: até **07/12/2026** (ações na B3) ou **08/12/2026, 12h** (escriturador).","","Homologação prevista: **16/12/2026**."],"size":48,"arrow":true},
+{"text":["**FATO:** em 23/11/2026, os conselhos aprovaram pré-pagamento parcial de **R$ 3 bilhões** da dívida reestruturada da Raízen Energia, sem prêmio, nos títulos com vencimento em **2033**.","","Motivo informado: caixa **superior ao esperado**. Liquidação após 18/12/2026."],"size":46,"arrow":true},
+{"text":["**ANÁLISE:** a empresa informa que a medida busca uma estrutura de capital futura mais equilibrada.","","O comunicado não informa o impacto na cotação nem no resultado. Ainda não existem informações suficientes para determinar o impacto.","","Isso muda a tese de investimento? Depende de cada investidor. Salve para acompanhar."],"size":46}
+,{"final":"guia"}]}
