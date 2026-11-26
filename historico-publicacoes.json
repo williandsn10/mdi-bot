@@ -537,7 +537,18 @@
       "produto": "guia",
       "status": "publicado",
       "observacao": "Sem logo (assets/logos/RAIZ55.png inexistente)."
+    },
+    {
+      "data": "2026-11-26",
+      "assunto": "IPCA-15 novembro/2026: 0,22% (out 0,32%), 4,64% em 12 meses (out 4,62%); alimentação e bebidas +1,51%, transportes −0,71%, energia elétrica −0,85%",
+      "modelo": "claro",
+      "post_id": "17910625467669572",
+      "fontes": [
+        "IBGE, IPCA-15 novembro/2026 (SIDRA tabela 7062), divulgado em 26/11/2026"
+      ],
+      "produto": "ebook",
+      "status": "publicado"
     }
   ],
-  "proximo_modelo": "claro"
+  "proximo_modelo": "escuro"
 }
