@@ -1,6 +1,8 @@
-{"theme":"claro","out":"saida/2026-11-26-ipca15-novembro","slides":[
-{"text":["O **IPCA-15** de novembro subiu **0,22%**, mas **alimentação e bebidas** subiram **1,51%**.","","Veja o que o IBGE divulgou."],"size":70,"arrow":true},
-{"text":["**FATO:** o IPCA-15 de novembro/2026 foi de **0,22%**, abaixo dos **0,32%** de outubro.","","Em 12 meses: **4,64%** (outubro: **4,62%**).","","Divulgação do IBGE em 26/11/2026."],"size":50,"arrow":true},
-{"text":["**FATO:** por grupo, **Alimentação e bebidas** subiu **1,51%** (alimentação no domicílio: **2,02%**).","","**Transportes** caiu **0,71%**: passagem aérea **−9,57%** e combustíveis **−0,95%**.","","Energia elétrica residencial: **−0,85%**."],"size":46,"arrow":true},
-{"text":["**ANÁLISE:** a alta mensal menor veio com pressões diferentes por grupo: alimentos em alta, transportes e energia em queda.","","O IBGE divulgou os números; o impacto sobre juros e cotações não consta da divulgação.","","A inflação em 12 meses ficou praticamente estável. Isso muda a sua visão sobre juros? Salve para acompanhar."],"size":44}
-,{"final":"ebook"}]}
+{"out":"saida/2026-11-28-dividend-yield","tag":"Educação","fonte":"","slides":[
+{"size":62,"image":"assets/fotos/dy-1.jpg","text":"**Dividend yield** alto é sempre bom sinal? Entenda o que esse número mostra, e o que ele esconde."},
+{"size":54,"image":"assets/fotos/dy-2.jpg","text":"**O que é:** dividend yield é a relação entre os **dividendos pagos por ação** em um período e o **preço da ação**."},
+{"size":52,"image":"assets/fotos/dy-3.jpg","text":"**A conta:** dividendos por ação nos últimos 12 meses ÷ preço da ação.\n\nExemplo **ilustrativo**: R$ 1 de dividendos ÷ R$ 20 de preço = **5%**."},
+{"size":52,"image":"assets/fotos/dy-4.jpg","text":"**Atenção:** o yield muda quando o **preço** muda. Se a ação cai e o dividendo é o mesmo, o yield **sobe**, sem a empresa ter melhorado."},
+{"size":50,"image":"assets/fotos/dy-5.jpg","text":"**Olhe além do número:** o lucro sustenta o dividendo? O pagamento foi **recorrente** ou **extraordinário**? Qual o **payout** e o nível de **dívida**?"},
+{"size":54,"image":"assets/fotos/dy-6.jpg","text":"**Para levar:** dividend yield é um ponto de partida, não uma conclusão.\n\nQual indicador você olha antes de analisar dividendos? Conta nos comentários e **salve** este post."},
+{"final":"guia"}]}

@@ -564,6 +564,18 @@
    "produto": "guia",
    "status": "publicado",
    "arte": "saida/2026-11-27-resumo-da-semana"
+  },
+  {
+   "data": "2026-11-28",
+   "assunto": "Educativo: dividend yield (o que é, conta, yield muda com o preço, olhar além do número)",
+   "modelo": "modelo2",
+   "rotina": "m2-sab",
+   "post_id": "18647412958000971",
+   "fontes": [
+    "Conteúdo educativo original (definições)"
+   ],
+   "produto": "guia",
+   "status": "publicado"
   }
  ],
  "proximo_modelo": "escuro"
