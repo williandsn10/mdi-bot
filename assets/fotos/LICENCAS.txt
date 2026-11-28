@@ -92,3 +92,9 @@ rs27-3.jpg  https://www.pexels.com/photo/shelves-with-assorted-products-in-super
 rs27-4.jpg  https://www.pexels.com/photo/construction-workers-wearing-hardhats-8961064/
 rs27-5.jpg  https://www.pexels.com/photo/oil-refinery-at-night-10407689/
 rs27-6.jpg  https://www.pexels.com/photo/sugar-cane-farmland-7457175/
+dy-1.jpg  https://www.pexels.com/photo/plant-on-a-glass-bottle-with-coins-6774947/
+dy-2.jpg  https://www.pexels.com/photo/banknotes-and-calculator-on-table-6694543/
+dy-3.jpg  https://www.pexels.com/photo/a-person-working-on-the-documents-using-a-calculator-8297220/
+dy-4.jpg  https://www.pexels.com/photo/a-close-up-shot-of-a-person-stacking-coins-9755376/
+dy-5.jpg  https://www.pexels.com/photo/a-black-piggy-bank-in-the-middle-of-coins-3943727/
+dy-6.jpg  https://www.pexels.com/photo/green-plant-between-a-pile-of-silver-coins-11391951/
